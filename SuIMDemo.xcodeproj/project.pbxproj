@@ -13,9 +13,6 @@
 		BCB7105E1C9D37C000B876E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB7105C1C9D37C000B876E8 /* Main.storyboard */; };
 		BCB710601C9D37C000B876E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB7105F1C9D37C000B876E8 /* Assets.xcassets */; };
 		BCB710631C9D37C000B876E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB710611C9D37C000B876E8 /* LaunchScreen.storyboard */; };
-		BCB7106D1C9D38B200B876E8 /* doc in Resources */ = {isa = PBXBuildFile; fileRef = BCB7106A1C9D38B200B876E8 /* doc */; };
-		BCB7106E1C9D38B200B876E8 /* ExportHeaders in Resources */ = {isa = PBXBuildFile; fileRef = BCB7106B1C9D38B200B876E8 /* ExportHeaders */; };
-		BCB7106F1C9D38B200B876E8 /* libNIMSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB7106C1C9D38B200B876E8 /* libNIMSDK.a */; };
 		BCB710711C9D390100B876E8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB710701C9D390100B876E8 /* MobileCoreServices.framework */; };
 		BCB710731C9D390B00B876E8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB710721C9D390B00B876E8 /* SystemConfiguration.framework */; };
 		BCB710751C9D391900B876E8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB710741C9D391900B876E8 /* AVFoundation.framework */; };
@@ -25,6 +22,162 @@
 		BCB7107D1C9D397700B876E8 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB7107C1C9D397700B876E8 /* libstdc++.6.0.9.tbd */; };
 		BCB7107F1C9D398500B876E8 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB7107E1C9D398500B876E8 /* libsqlite3.0.tbd */; };
 		BCB710811C9D398E00B876E8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB710801C9D398E00B876E8 /* libz.tbd */; };
+		BCB7116C1C9D3D7500B876E8 /* com.netease.nimsdk.NIMSDK.docset in Resources */ = {isa = PBXBuildFile; fileRef = BCB710901C9D3D7500B876E8 /* com.netease.nimsdk.NIMSDK.docset */; };
+		BCB7116D1C9D3D7500B876E8 /* NIMApnsHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710931C9D3D7500B876E8 /* NIMApnsHandler.html */; };
+		BCB7116E1C9D3D7500B876E8 /* NIMAudioToTextBlock.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710941C9D3D7500B876E8 /* NIMAudioToTextBlock.html */; };
+		BCB7116F1C9D3D7500B876E8 /* NIMBadgeHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710951C9D3D7500B876E8 /* NIMBadgeHandler.html */; };
+		BCB711701C9D3D7500B876E8 /* NIMChatroomEnterHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710961C9D3D7500B876E8 /* NIMChatroomEnterHandler.html */; };
+		BCB711711C9D3D7500B876E8 /* NIMChatroomHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710971C9D3D7500B876E8 /* NIMChatroomHandler.html */; };
+		BCB711721C9D3D7500B876E8 /* NIMChatroomInfoHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710981C9D3D7500B876E8 /* NIMChatroomInfoHandler.html */; };
+		BCB711731C9D3D7500B876E8 /* NIMChatroomMemberHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710991C9D3D7500B876E8 /* NIMChatroomMemberHandler.html */; };
+		BCB711741C9D3D7500B876E8 /* NIMChatroomMembersHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB7109A1C9D3D7500B876E8 /* NIMChatroomMembersHandler.html */; };
+		BCB711751C9D3D7500B876E8 /* NIMDownloadCompleteBlock.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB7109B1C9D3D7500B876E8 /* NIMDownloadCompleteBlock.html */; };
+		BCB711761C9D3D7500B876E8 /* NIMFetchChatroomHistoryBlock.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB7109C1C9D3D7500B876E8 /* NIMFetchChatroomHistoryBlock.html */; };
+		BCB711771C9D3D7500B876E8 /* NIMFetchMessageHistoryBlock.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB7109D1C9D3D7500B876E8 /* NIMFetchMessageHistoryBlock.html */; };
+		BCB711781C9D3D7500B876E8 /* NIMHttpProgressBlock.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB7109E1C9D3D7500B876E8 /* NIMHttpProgressBlock.html */; };
+		BCB711791C9D3D7500B876E8 /* NIMLoginHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB7109F1C9D3D7500B876E8 /* NIMLoginHandler.html */; };
+		BCB7117A1C9D3D7500B876E8 /* NIMNetCallResponseHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710A01C9D3D7500B876E8 /* NIMNetCallResponseHandler.html */; };
+		BCB7117B1C9D3D7500B876E8 /* NIMNetCallStartHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710A11C9D3D7500B876E8 /* NIMNetCallStartHandler.html */; };
+		BCB7117C1C9D3D7500B876E8 /* NIMRemoveRemoteSessionBlock.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710A21C9D3D7500B876E8 /* NIMRemoveRemoteSessionBlock.html */; };
+		BCB7117D1C9D3D7500B876E8 /* NIMRTSRequestHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710A31C9D3D7500B876E8 /* NIMRTSRequestHandler.html */; };
+		BCB7117E1C9D3D7500B876E8 /* NIMRTSResponseHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710A41C9D3D7500B876E8 /* NIMRTSResponseHandler.html */; };
+		BCB7117F1C9D3D7500B876E8 /* NIMSearchMessageBlock.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710A51C9D3D7500B876E8 /* NIMSearchMessageBlock.html */; };
+		BCB711801C9D3D7500B876E8 /* NIMSystemNotificationHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710A61C9D3D7500B876E8 /* NIMSystemNotificationHandler.html */; };
+		BCB711811C9D3D7500B876E8 /* NIMTeamApplyHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710A71C9D3D7500B876E8 /* NIMTeamApplyHandler.html */; };
+		BCB711821C9D3D7500B876E8 /* NIMTeamCreateHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710A81C9D3D7500B876E8 /* NIMTeamCreateHandler.html */; };
+		BCB711831C9D3D7500B876E8 /* NIMTeamFetchInfoHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710A91C9D3D7500B876E8 /* NIMTeamFetchInfoHandler.html */; };
+		BCB711841C9D3D7500B876E8 /* NIMTeamHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710AA1C9D3D7500B876E8 /* NIMTeamHandler.html */; };
+		BCB711851C9D3D7500B876E8 /* NIMTeamMemberHandler.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710AB1C9D3D7500B876E8 /* NIMTeamMemberHandler.html */; };
+		BCB711861C9D3D7500B876E8 /* NIMUpdateMessageBlock.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710AC1C9D3D7500B876E8 /* NIMUpdateMessageBlock.html */; };
+		BCB711871C9D3D7500B876E8 /* NIMUploadCompleteBlock.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710AD1C9D3D7500B876E8 /* NIMUploadCompleteBlock.html */; };
+		BCB711881C9D3D7500B876E8 /* NIMUserBlock.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710AE1C9D3D7500B876E8 /* NIMUserBlock.html */; };
+		BCB711891C9D3D7500B876E8 /* NIMUserInfoBlock.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710AF1C9D3D7500B876E8 /* NIMUserInfoBlock.html */; };
+		BCB7118A1C9D3D7500B876E8 /* NIMAudioObject.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710B11C9D3D7500B876E8 /* NIMAudioObject.html */; };
+		BCB7118B1C9D3D7500B876E8 /* NIMAudioToTextOption.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710B21C9D3D7500B876E8 /* NIMAudioToTextOption.html */; };
+		BCB7118C1C9D3D7500B876E8 /* NIMAutoLoginData.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710B31C9D3D7500B876E8 /* NIMAutoLoginData.html */; };
+		BCB7118D1C9D3D7500B876E8 /* NIMChatroom.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710B41C9D3D7500B876E8 /* NIMChatroom.html */; };
+		BCB7118E1C9D3D7500B876E8 /* NIMChatroomEnterRequest.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710B51C9D3D7500B876E8 /* NIMChatroomEnterRequest.html */; };
+		BCB7118F1C9D3D7500B876E8 /* NIMChatroomMember.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710B61C9D3D7500B876E8 /* NIMChatroomMember.html */; };
+		BCB711901C9D3D7500B876E8 /* NIMChatroomMemberKickRequest.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710B71C9D3D7500B876E8 /* NIMChatroomMemberKickRequest.html */; };
+		BCB711911C9D3D7500B876E8 /* NIMChatroomMemberRequest.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710B81C9D3D7500B876E8 /* NIMChatroomMemberRequest.html */; };
+		BCB711921C9D3D7500B876E8 /* NIMChatroomMembersByIdsRequest.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710B91C9D3D7500B876E8 /* NIMChatroomMembersByIdsRequest.html */; };
+		BCB711931C9D3D7500B876E8 /* NIMChatroomMemberUpdateRequest.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710BA1C9D3D7500B876E8 /* NIMChatroomMemberUpdateRequest.html */; };
+		BCB711941C9D3D7500B876E8 /* NIMChatroomNotificationContent.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710BB1C9D3D7500B876E8 /* NIMChatroomNotificationContent.html */; };
+		BCB711951C9D3D7500B876E8 /* NIMChatroomNotificationMember.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710BC1C9D3D7500B876E8 /* NIMChatroomNotificationMember.html */; };
+		BCB711961C9D3D7500B876E8 /* NIMCreateTeamOption.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710BD1C9D3D7500B876E8 /* NIMCreateTeamOption.html */; };
+		BCB711971C9D3D7500B876E8 /* NIMCustomObject.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710BE1C9D3D7500B876E8 /* NIMCustomObject.html */; };
+		BCB711981C9D3D7500B876E8 /* NIMCustomSystemNotification.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710BF1C9D3D7500B876E8 /* NIMCustomSystemNotification.html */; };
+		BCB711991C9D3D7500B876E8 /* NIMCustomSystemNotificationSetting.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710C01C9D3D7500B876E8 /* NIMCustomSystemNotificationSetting.html */; };
+		BCB7119A1C9D3D7500B876E8 /* NIMFileObject.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710C11C9D3D7500B876E8 /* NIMFileObject.html */; };
+		BCB7119B1C9D3D7500B876E8 /* NIMHistoryMessageSearchOption.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710C21C9D3D7500B876E8 /* NIMHistoryMessageSearchOption.html */; };
+		BCB7119C1C9D3D7500B876E8 /* NIMImageObject.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710C31C9D3D7500B876E8 /* NIMImageObject.html */; };
+		BCB7119D1C9D3D7500B876E8 /* NIMImageOption.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710C41C9D3D7500B876E8 /* NIMImageOption.html */; };
+		BCB7119E1C9D3D7500B876E8 /* NIMLocationObject.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710C51C9D3D7500B876E8 /* NIMLocationObject.html */; };
+		BCB7119F1C9D3D7500B876E8 /* NIMLoginClient.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710C61C9D3D7500B876E8 /* NIMLoginClient.html */; };
+		BCB711A01C9D3D7500B876E8 /* NIMMessage.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710C71C9D3D7500B876E8 /* NIMMessage.html */; };
+		BCB711A11C9D3D7500B876E8 /* NIMMessageChatroomExtension.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710C81C9D3D7500B876E8 /* NIMMessageChatroomExtension.html */; };
+		BCB711A21C9D3D7500B876E8 /* NIMMessageSearchOption.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710C91C9D3D7500B876E8 /* NIMMessageSearchOption.html */; };
+		BCB711A31C9D3D7500B876E8 /* NIMMessageSetting.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710CA1C9D3D7500B876E8 /* NIMMessageSetting.html */; };
+		BCB711A41C9D3D7500B876E8 /* NIMNetCallNotificationContent.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710CB1C9D3D7500B876E8 /* NIMNetCallNotificationContent.html */; };
+		BCB711A51C9D3D7500B876E8 /* NIMNetCallOption.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710CC1C9D3D7500B876E8 /* NIMNetCallOption.html */; };
+		BCB711A61C9D3D7500B876E8 /* NIMNotificationContent.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710CD1C9D3D7500B876E8 /* NIMNotificationContent.html */; };
+		BCB711A71C9D3D7500B876E8 /* NIMNotificationObject.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710CE1C9D3D7500B876E8 /* NIMNotificationObject.html */; };
+		BCB711A81C9D3D7500B876E8 /* NIMPushNotificationSetting.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710CF1C9D3D7500B876E8 /* NIMPushNotificationSetting.html */; };
+		BCB711A91C9D3D7500B876E8 /* NIMRecentSession.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710D01C9D3D7500B876E8 /* NIMRecentSession.html */; };
+		BCB711AA1C9D3D7500B876E8 /* NIMRTSOption.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710D11C9D3D7500B876E8 /* NIMRTSOption.html */; };
+		BCB711AB1C9D3D7500B876E8 /* NIMRTSRecordingInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710D21C9D3D7500B876E8 /* NIMRTSRecordingInfo.html */; };
+		BCB711AC1C9D3D7500B876E8 /* NIMSDK.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710D31C9D3D7500B876E8 /* NIMSDK.html */; };
+		BCB711AD1C9D3D7500B876E8 /* NIMSDKConfig.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710D41C9D3D7500B876E8 /* NIMSDKConfig.html */; };
+		BCB711AE1C9D3D7500B876E8 /* NIMSession.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710D51C9D3D7500B876E8 /* NIMSession.html */; };
+		BCB711AF1C9D3D7500B876E8 /* NIMSystemNotification.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710D61C9D3D7500B876E8 /* NIMSystemNotification.html */; };
+		BCB711B01C9D3D7500B876E8 /* NIMSystemNotificationFilter.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710D71C9D3D7500B876E8 /* NIMSystemNotificationFilter.html */; };
+		BCB711B11C9D3D7500B876E8 /* NIMTeam.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710D81C9D3D7500B876E8 /* NIMTeam.html */; };
+		BCB711B21C9D3D7500B876E8 /* NIMTeamMember.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710D91C9D3D7500B876E8 /* NIMTeamMember.html */; };
+		BCB711B31C9D3D7500B876E8 /* NIMTeamNotificationContent.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710DA1C9D3D7500B876E8 /* NIMTeamNotificationContent.html */; };
+		BCB711B41C9D3D7500B876E8 /* NIMUpdateTeamInfoAttachment.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710DB1C9D3D7500B876E8 /* NIMUpdateTeamInfoAttachment.html */; };
+		BCB711B51C9D3D7500B876E8 /* NIMUser.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710DC1C9D3D7500B876E8 /* NIMUser.html */; };
+		BCB711B61C9D3D7500B876E8 /* NIMUserAddAttachment.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710DD1C9D3D7500B876E8 /* NIMUserAddAttachment.html */; };
+		BCB711B71C9D3D7500B876E8 /* NIMUserInfo.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710DE1C9D3D7500B876E8 /* NIMUserInfo.html */; };
+		BCB711B81C9D3D7500B876E8 /* NIMUserRequest.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710DF1C9D3D7500B876E8 /* NIMUserRequest.html */; };
+		BCB711B91C9D3D7500B876E8 /* NIMVideoObject.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710E01C9D3D7500B876E8 /* NIMVideoObject.html */; };
+		BCB711BA1C9D3D7500B876E8 /* NIMAudioOutputDevice.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710E21C9D3D7500B876E8 /* NIMAudioOutputDevice.html */; };
+		BCB711BB1C9D3D7500B876E8 /* NIMChatroomConnectionState.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710E31C9D3D7500B876E8 /* NIMChatroomConnectionState.html */; };
+		BCB711BC1C9D3D7500B876E8 /* NIMChatroomEventType.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710E41C9D3D7500B876E8 /* NIMChatroomEventType.html */; };
+		BCB711BD1C9D3D7500B876E8 /* NIMChatroomFetchMemberType.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710E51C9D3D7500B876E8 /* NIMChatroomFetchMemberType.html */; };
+		BCB711BE1C9D3D7500B876E8 /* NIMChatroomKickReason.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710E61C9D3D7500B876E8 /* NIMChatroomKickReason.html */; };
+		BCB711BF1C9D3D7500B876E8 /* NIMChatroomMemberType.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710E71C9D3D7500B876E8 /* NIMChatroomMemberType.html */; };
+		BCB711C01C9D3D7500B876E8 /* NIMKickReason.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710E81C9D3D7500B876E8 /* NIMKickReason.html */; };
+		BCB711C11C9D3D7500B876E8 /* NIMLocalErrorCode.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710E91C9D3D7500B876E8 /* NIMLocalErrorCode.html */; };
+		BCB711C21C9D3D7500B876E8 /* NIMLoginClientType.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710EA1C9D3D7500B876E8 /* NIMLoginClientType.html */; };
+		BCB711C31C9D3D7500B876E8 /* NIMLoginStep.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710EB1C9D3D7500B876E8 /* NIMLoginStep.html */; };
+		BCB711C41C9D3D7500B876E8 /* NIMMessageAttachmentDownloadState.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710EC1C9D3D7500B876E8 /* NIMMessageAttachmentDownloadState.html */; };
+		BCB711C51C9D3D7500B876E8 /* NIMMessageDeliveryState.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710ED1C9D3D7500B876E8 /* NIMMessageDeliveryState.html */; };
+		BCB711C61C9D3D7500B876E8 /* NIMMessageType.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710EE1C9D3D7500B876E8 /* NIMMessageType.html */; };
+		BCB711C71C9D3D7500B876E8 /* NIMNetCallCamera.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710EF1C9D3D7500B876E8 /* NIMNetCallCamera.html */; };
+		BCB711C81C9D3D7500B876E8 /* NIMNetCallControlType.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710F01C9D3D7500B876E8 /* NIMNetCallControlType.html */; };
+		BCB711C91C9D3D7500B876E8 /* NIMNetCallEventType.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710F11C9D3D7500B876E8 /* NIMNetCallEventType.html */; };
+		BCB711CA1C9D3D7500B876E8 /* NIMNetCallNetStatus.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710F21C9D3D7500B876E8 /* NIMNetCallNetStatus.html */; };
+		BCB711CB1C9D3D7500B876E8 /* NIMNetCallStatus.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710F31C9D3D7500B876E8 /* NIMNetCallStatus.html */; };
+		BCB711CC1C9D3D7500B876E8 /* NIMNetCallType.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710F41C9D3D7500B876E8 /* NIMNetCallType.html */; };
+		BCB711CD1C9D3D7500B876E8 /* NIMNetCallVideoQuality.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710F51C9D3D7500B876E8 /* NIMNetCallVideoQuality.html */; };
+		BCB711CE1C9D3D7500B876E8 /* NIMNotificationType.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710F61C9D3D7500B876E8 /* NIMNotificationType.html */; };
+		BCB711CF1C9D3D7500B876E8 /* NIMPushNotificationDisplayType.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710F71C9D3D7500B876E8 /* NIMPushNotificationDisplayType.html */; };
+		BCB711D01C9D3D7500B876E8 /* NIMRemoteErrorCode.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710F81C9D3D7500B876E8 /* NIMRemoteErrorCode.html */; };
+		BCB711D11C9D3D7500B876E8 /* NIMRTSService.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710F91C9D3D7500B876E8 /* NIMRTSService.html */; };
+		BCB711D21C9D3D7500B876E8 /* NIMRTSStatus.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710FA1C9D3D7500B876E8 /* NIMRTSStatus.html */; };
+		BCB711D31C9D3D7500B876E8 /* NIMSessionType.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710FB1C9D3D7500B876E8 /* NIMSessionType.html */; };
+		BCB711D41C9D3D7500B876E8 /* NIMSystemNotificationType.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710FC1C9D3D7500B876E8 /* NIMSystemNotificationType.html */; };
+		BCB711D51C9D3D7500B876E8 /* NIMTeamApplyStatus.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710FD1C9D3D7500B876E8 /* NIMTeamApplyStatus.html */; };
+		BCB711D61C9D3D7500B876E8 /* NIMTeamJoinMode.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710FE1C9D3D7500B876E8 /* NIMTeamJoinMode.html */; };
+		BCB711D71C9D3D7500B876E8 /* NIMTeamMemberType.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB710FF1C9D3D7500B876E8 /* NIMTeamMemberType.html */; };
+		BCB711D81C9D3D7500B876E8 /* NIMTeamOperationType.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711001C9D3D7500B876E8 /* NIMTeamOperationType.html */; };
+		BCB711D91C9D3D7500B876E8 /* NIMTeamType.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711011C9D3D7500B876E8 /* NIMTeamType.html */; };
+		BCB711DA1C9D3D7500B876E8 /* NIMTeamUpdateTag.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711021C9D3D7500B876E8 /* NIMTeamUpdateTag.html */; };
+		BCB711DB1C9D3D7500B876E8 /* NIMUserGender.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711031C9D3D7500B876E8 /* NIMUserGender.html */; };
+		BCB711DC1C9D3D7500B876E8 /* NIMUserInfoUpdateTag.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711041C9D3D7500B876E8 /* NIMUserInfoUpdateTag.html */; };
+		BCB711DD1C9D3D7500B876E8 /* NIMUserOperation.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711051C9D3D7500B876E8 /* NIMUserOperation.html */; };
+		BCB711DE1C9D3D7500B876E8 /* _index.scss in Resources */ = {isa = PBXBuildFile; fileRef = BCB711081C9D3D7500B876E8 /* _index.scss */; };
+		BCB711DF1C9D3D7500B876E8 /* _layout.scss in Resources */ = {isa = PBXBuildFile; fileRef = BCB711091C9D3D7500B876E8 /* _layout.scss */; };
+		BCB711E01C9D3D7500B876E8 /* _normalize.scss in Resources */ = {isa = PBXBuildFile; fileRef = BCB7110A1C9D3D7500B876E8 /* _normalize.scss */; };
+		BCB711E11C9D3D7500B876E8 /* _object.scss in Resources */ = {isa = PBXBuildFile; fileRef = BCB7110B1C9D3D7500B876E8 /* _object.scss */; };
+		BCB711E21C9D3D7500B876E8 /* _print.scss in Resources */ = {isa = PBXBuildFile; fileRef = BCB7110C1C9D3D7500B876E8 /* _print.scss */; };
+		BCB711E31C9D3D7500B876E8 /* _variables.scss in Resources */ = {isa = PBXBuildFile; fileRef = BCB7110D1C9D3D7500B876E8 /* _variables.scss */; };
+		BCB711E41C9D3D7500B876E8 /* _xcode.scss in Resources */ = {isa = PBXBuildFile; fileRef = BCB7110E1C9D3D7500B876E8 /* _xcode.scss */; };
+		BCB711E51C9D3D7500B876E8 /* style.scss in Resources */ = {isa = PBXBuildFile; fileRef = BCB7110F1C9D3D7500B876E8 /* style.scss */; };
+		BCB711E61C9D3D7500B876E8 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = BCB711101C9D3D7500B876E8 /* style.css */; };
+		BCB711E71C9D3D7500B876E8 /* hierarchy.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711111C9D3D7500B876E8 /* hierarchy.html */; };
+		BCB711E81C9D3D7500B876E8 /* button_bar_background.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB711131C9D3D7500B876E8 /* button_bar_background.png */; };
+		BCB711E91C9D3D7500B876E8 /* disclosure.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB711141C9D3D7500B876E8 /* disclosure.png */; };
+		BCB711EA1C9D3D7500B876E8 /* disclosure_open.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB711151C9D3D7500B876E8 /* disclosure_open.png */; };
+		BCB711EB1C9D3D7500B876E8 /* library_background.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB711161C9D3D7500B876E8 /* library_background.png */; };
+		BCB711EC1C9D3D7500B876E8 /* title_background.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB711171C9D3D7500B876E8 /* title_background.png */; };
+		BCB711ED1C9D3D7500B876E8 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711181C9D3D7500B876E8 /* index.html */; };
+		BCB711EE1C9D3D7500B876E8 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = BCB7111A1C9D3D7500B876E8 /* script.js */; };
+		BCB711EF1C9D3D7500B876E8 /* NIMChatManager.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB7111C1C9D3D7500B876E8 /* NIMChatManager.html */; };
+		BCB711F01C9D3D7500B876E8 /* NIMChatManagerDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB7111D1C9D3D7500B876E8 /* NIMChatManagerDelegate.html */; };
+		BCB711F11C9D3D7500B876E8 /* NIMChatroomManager.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB7111E1C9D3D7500B876E8 /* NIMChatroomManager.html */; };
+		BCB711F21C9D3D7500B876E8 /* NIMChatroomManagerDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB7111F1C9D3D7500B876E8 /* NIMChatroomManagerDelegate.html */; };
+		BCB711F31C9D3D7500B876E8 /* NIMConversationManager.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711201C9D3D7500B876E8 /* NIMConversationManager.html */; };
+		BCB711F41C9D3D7500B876E8 /* NIMConversationManagerDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711211C9D3D7500B876E8 /* NIMConversationManagerDelegate.html */; };
+		BCB711F51C9D3D7500B876E8 /* NIMCustomAttachment.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711221C9D3D7500B876E8 /* NIMCustomAttachment.html */; };
+		BCB711F61C9D3D7500B876E8 /* NIMCustomAttachmentCoding.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711231C9D3D7500B876E8 /* NIMCustomAttachmentCoding.html */; };
+		BCB711F71C9D3D7500B876E8 /* NIMLoginManager.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711241C9D3D7500B876E8 /* NIMLoginManager.html */; };
+		BCB711F81C9D3D7500B876E8 /* NIMLoginManagerDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711251C9D3D7500B876E8 /* NIMLoginManagerDelegate.html */; };
+		BCB711F91C9D3D7500B876E8 /* NIMMediaManager.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711261C9D3D7500B876E8 /* NIMMediaManager.html */; };
+		BCB711FA1C9D3D7500B876E8 /* NIMMediaManagerDelgate.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711271C9D3D7500B876E8 /* NIMMediaManagerDelgate.html */; };
+		BCB711FB1C9D3D7500B876E8 /* NIMMessageObject.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711281C9D3D7500B876E8 /* NIMMessageObject.html */; };
+		BCB711FC1C9D3D7500B876E8 /* NIMNetCallManager.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711291C9D3D7500B876E8 /* NIMNetCallManager.html */; };
+		BCB711FD1C9D3D7500B876E8 /* NIMNetCallManagerDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB7112A1C9D3D7500B876E8 /* NIMNetCallManagerDelegate.html */; };
+		BCB711FE1C9D3D7500B876E8 /* NIMResourceManager.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB7112B1C9D3D7500B876E8 /* NIMResourceManager.html */; };
+		BCB711FF1C9D3D7500B876E8 /* NIMRTSManager.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB7112C1C9D3D7500B876E8 /* NIMRTSManager.html */; };
+		BCB712001C9D3D7500B876E8 /* NIMRTSManagerDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB7112D1C9D3D7500B876E8 /* NIMRTSManagerDelegate.html */; };
+		BCB712011C9D3D7500B876E8 /* NIMSystemNotificationManager.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB7112E1C9D3D7500B876E8 /* NIMSystemNotificationManager.html */; };
+		BCB712021C9D3D7500B876E8 /* NIMSystemNotificationManagerDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB7112F1C9D3D7500B876E8 /* NIMSystemNotificationManagerDelegate.html */; };
+		BCB712031C9D3D7500B876E8 /* NIMTeamManager.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711301C9D3D7500B876E8 /* NIMTeamManager.html */; };
+		BCB712041C9D3D7500B876E8 /* NIMTeamManagerDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711311C9D3D7500B876E8 /* NIMTeamManagerDelegate.html */; };
+		BCB712051C9D3D7500B876E8 /* NIMUserManager.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711321C9D3D7500B876E8 /* NIMUserManager.html */; };
+		BCB712061C9D3D7500B876E8 /* NIMUserManagerDelegate.html in Resources */ = {isa = PBXBuildFile; fileRef = BCB711331C9D3D7500B876E8 /* NIMUserManagerDelegate.html */; };
+		BCB712071C9D3D7500B876E8 /* libNIMSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB7116B1C9D3D7500B876E8 /* libNIMSDK.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,9 +191,6 @@
 		BCB7105F1C9D37C000B876E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCB710621C9D37C000B876E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCB710641C9D37C000B876E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCB7106A1C9D38B200B876E8 /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
-		BCB7106B1C9D38B200B876E8 /* ExportHeaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ExportHeaders; sourceTree = "<group>"; };
-		BCB7106C1C9D38B200B876E8 /* libNIMSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNIMSDK.a; sourceTree = "<group>"; };
 		BCB710701C9D390100B876E8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		BCB710721C9D390B00B876E8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		BCB710741C9D391900B876E8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -50,6 +200,212 @@
 		BCB7107C1C9D397700B876E8 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		BCB7107E1C9D398500B876E8 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		BCB710801C9D398E00B876E8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BCB710901C9D3D7500B876E8 /* com.netease.nimsdk.NIMSDK.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = com.netease.nimsdk.NIMSDK.docset; sourceTree = "<group>"; };
+		BCB710931C9D3D7500B876E8 /* NIMApnsHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMApnsHandler.html; sourceTree = "<group>"; };
+		BCB710941C9D3D7500B876E8 /* NIMAudioToTextBlock.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMAudioToTextBlock.html; sourceTree = "<group>"; };
+		BCB710951C9D3D7500B876E8 /* NIMBadgeHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMBadgeHandler.html; sourceTree = "<group>"; };
+		BCB710961C9D3D7500B876E8 /* NIMChatroomEnterHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomEnterHandler.html; sourceTree = "<group>"; };
+		BCB710971C9D3D7500B876E8 /* NIMChatroomHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomHandler.html; sourceTree = "<group>"; };
+		BCB710981C9D3D7500B876E8 /* NIMChatroomInfoHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomInfoHandler.html; sourceTree = "<group>"; };
+		BCB710991C9D3D7500B876E8 /* NIMChatroomMemberHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomMemberHandler.html; sourceTree = "<group>"; };
+		BCB7109A1C9D3D7500B876E8 /* NIMChatroomMembersHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomMembersHandler.html; sourceTree = "<group>"; };
+		BCB7109B1C9D3D7500B876E8 /* NIMDownloadCompleteBlock.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMDownloadCompleteBlock.html; sourceTree = "<group>"; };
+		BCB7109C1C9D3D7500B876E8 /* NIMFetchChatroomHistoryBlock.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMFetchChatroomHistoryBlock.html; sourceTree = "<group>"; };
+		BCB7109D1C9D3D7500B876E8 /* NIMFetchMessageHistoryBlock.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMFetchMessageHistoryBlock.html; sourceTree = "<group>"; };
+		BCB7109E1C9D3D7500B876E8 /* NIMHttpProgressBlock.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMHttpProgressBlock.html; sourceTree = "<group>"; };
+		BCB7109F1C9D3D7500B876E8 /* NIMLoginHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMLoginHandler.html; sourceTree = "<group>"; };
+		BCB710A01C9D3D7500B876E8 /* NIMNetCallResponseHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMNetCallResponseHandler.html; sourceTree = "<group>"; };
+		BCB710A11C9D3D7500B876E8 /* NIMNetCallStartHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMNetCallStartHandler.html; sourceTree = "<group>"; };
+		BCB710A21C9D3D7500B876E8 /* NIMRemoveRemoteSessionBlock.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMRemoveRemoteSessionBlock.html; sourceTree = "<group>"; };
+		BCB710A31C9D3D7500B876E8 /* NIMRTSRequestHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMRTSRequestHandler.html; sourceTree = "<group>"; };
+		BCB710A41C9D3D7500B876E8 /* NIMRTSResponseHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMRTSResponseHandler.html; sourceTree = "<group>"; };
+		BCB710A51C9D3D7500B876E8 /* NIMSearchMessageBlock.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMSearchMessageBlock.html; sourceTree = "<group>"; };
+		BCB710A61C9D3D7500B876E8 /* NIMSystemNotificationHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMSystemNotificationHandler.html; sourceTree = "<group>"; };
+		BCB710A71C9D3D7500B876E8 /* NIMTeamApplyHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMTeamApplyHandler.html; sourceTree = "<group>"; };
+		BCB710A81C9D3D7500B876E8 /* NIMTeamCreateHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMTeamCreateHandler.html; sourceTree = "<group>"; };
+		BCB710A91C9D3D7500B876E8 /* NIMTeamFetchInfoHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMTeamFetchInfoHandler.html; sourceTree = "<group>"; };
+		BCB710AA1C9D3D7500B876E8 /* NIMTeamHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMTeamHandler.html; sourceTree = "<group>"; };
+		BCB710AB1C9D3D7500B876E8 /* NIMTeamMemberHandler.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMTeamMemberHandler.html; sourceTree = "<group>"; };
+		BCB710AC1C9D3D7500B876E8 /* NIMUpdateMessageBlock.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMUpdateMessageBlock.html; sourceTree = "<group>"; };
+		BCB710AD1C9D3D7500B876E8 /* NIMUploadCompleteBlock.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMUploadCompleteBlock.html; sourceTree = "<group>"; };
+		BCB710AE1C9D3D7500B876E8 /* NIMUserBlock.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMUserBlock.html; sourceTree = "<group>"; };
+		BCB710AF1C9D3D7500B876E8 /* NIMUserInfoBlock.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMUserInfoBlock.html; sourceTree = "<group>"; };
+		BCB710B11C9D3D7500B876E8 /* NIMAudioObject.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMAudioObject.html; sourceTree = "<group>"; };
+		BCB710B21C9D3D7500B876E8 /* NIMAudioToTextOption.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMAudioToTextOption.html; sourceTree = "<group>"; };
+		BCB710B31C9D3D7500B876E8 /* NIMAutoLoginData.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMAutoLoginData.html; sourceTree = "<group>"; };
+		BCB710B41C9D3D7500B876E8 /* NIMChatroom.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroom.html; sourceTree = "<group>"; };
+		BCB710B51C9D3D7500B876E8 /* NIMChatroomEnterRequest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomEnterRequest.html; sourceTree = "<group>"; };
+		BCB710B61C9D3D7500B876E8 /* NIMChatroomMember.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomMember.html; sourceTree = "<group>"; };
+		BCB710B71C9D3D7500B876E8 /* NIMChatroomMemberKickRequest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomMemberKickRequest.html; sourceTree = "<group>"; };
+		BCB710B81C9D3D7500B876E8 /* NIMChatroomMemberRequest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomMemberRequest.html; sourceTree = "<group>"; };
+		BCB710B91C9D3D7500B876E8 /* NIMChatroomMembersByIdsRequest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomMembersByIdsRequest.html; sourceTree = "<group>"; };
+		BCB710BA1C9D3D7500B876E8 /* NIMChatroomMemberUpdateRequest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomMemberUpdateRequest.html; sourceTree = "<group>"; };
+		BCB710BB1C9D3D7500B876E8 /* NIMChatroomNotificationContent.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomNotificationContent.html; sourceTree = "<group>"; };
+		BCB710BC1C9D3D7500B876E8 /* NIMChatroomNotificationMember.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomNotificationMember.html; sourceTree = "<group>"; };
+		BCB710BD1C9D3D7500B876E8 /* NIMCreateTeamOption.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMCreateTeamOption.html; sourceTree = "<group>"; };
+		BCB710BE1C9D3D7500B876E8 /* NIMCustomObject.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMCustomObject.html; sourceTree = "<group>"; };
+		BCB710BF1C9D3D7500B876E8 /* NIMCustomSystemNotification.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMCustomSystemNotification.html; sourceTree = "<group>"; };
+		BCB710C01C9D3D7500B876E8 /* NIMCustomSystemNotificationSetting.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMCustomSystemNotificationSetting.html; sourceTree = "<group>"; };
+		BCB710C11C9D3D7500B876E8 /* NIMFileObject.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMFileObject.html; sourceTree = "<group>"; };
+		BCB710C21C9D3D7500B876E8 /* NIMHistoryMessageSearchOption.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMHistoryMessageSearchOption.html; sourceTree = "<group>"; };
+		BCB710C31C9D3D7500B876E8 /* NIMImageObject.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMImageObject.html; sourceTree = "<group>"; };
+		BCB710C41C9D3D7500B876E8 /* NIMImageOption.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMImageOption.html; sourceTree = "<group>"; };
+		BCB710C51C9D3D7500B876E8 /* NIMLocationObject.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMLocationObject.html; sourceTree = "<group>"; };
+		BCB710C61C9D3D7500B876E8 /* NIMLoginClient.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMLoginClient.html; sourceTree = "<group>"; };
+		BCB710C71C9D3D7500B876E8 /* NIMMessage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMMessage.html; sourceTree = "<group>"; };
+		BCB710C81C9D3D7500B876E8 /* NIMMessageChatroomExtension.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMMessageChatroomExtension.html; sourceTree = "<group>"; };
+		BCB710C91C9D3D7500B876E8 /* NIMMessageSearchOption.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMMessageSearchOption.html; sourceTree = "<group>"; };
+		BCB710CA1C9D3D7500B876E8 /* NIMMessageSetting.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMMessageSetting.html; sourceTree = "<group>"; };
+		BCB710CB1C9D3D7500B876E8 /* NIMNetCallNotificationContent.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMNetCallNotificationContent.html; sourceTree = "<group>"; };
+		BCB710CC1C9D3D7500B876E8 /* NIMNetCallOption.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMNetCallOption.html; sourceTree = "<group>"; };
+		BCB710CD1C9D3D7500B876E8 /* NIMNotificationContent.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMNotificationContent.html; sourceTree = "<group>"; };
+		BCB710CE1C9D3D7500B876E8 /* NIMNotificationObject.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMNotificationObject.html; sourceTree = "<group>"; };
+		BCB710CF1C9D3D7500B876E8 /* NIMPushNotificationSetting.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMPushNotificationSetting.html; sourceTree = "<group>"; };
+		BCB710D01C9D3D7500B876E8 /* NIMRecentSession.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMRecentSession.html; sourceTree = "<group>"; };
+		BCB710D11C9D3D7500B876E8 /* NIMRTSOption.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMRTSOption.html; sourceTree = "<group>"; };
+		BCB710D21C9D3D7500B876E8 /* NIMRTSRecordingInfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMRTSRecordingInfo.html; sourceTree = "<group>"; };
+		BCB710D31C9D3D7500B876E8 /* NIMSDK.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMSDK.html; sourceTree = "<group>"; };
+		BCB710D41C9D3D7500B876E8 /* NIMSDKConfig.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMSDKConfig.html; sourceTree = "<group>"; };
+		BCB710D51C9D3D7500B876E8 /* NIMSession.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMSession.html; sourceTree = "<group>"; };
+		BCB710D61C9D3D7500B876E8 /* NIMSystemNotification.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMSystemNotification.html; sourceTree = "<group>"; };
+		BCB710D71C9D3D7500B876E8 /* NIMSystemNotificationFilter.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMSystemNotificationFilter.html; sourceTree = "<group>"; };
+		BCB710D81C9D3D7500B876E8 /* NIMTeam.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMTeam.html; sourceTree = "<group>"; };
+		BCB710D91C9D3D7500B876E8 /* NIMTeamMember.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMTeamMember.html; sourceTree = "<group>"; };
+		BCB710DA1C9D3D7500B876E8 /* NIMTeamNotificationContent.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMTeamNotificationContent.html; sourceTree = "<group>"; };
+		BCB710DB1C9D3D7500B876E8 /* NIMUpdateTeamInfoAttachment.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMUpdateTeamInfoAttachment.html; sourceTree = "<group>"; };
+		BCB710DC1C9D3D7500B876E8 /* NIMUser.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMUser.html; sourceTree = "<group>"; };
+		BCB710DD1C9D3D7500B876E8 /* NIMUserAddAttachment.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMUserAddAttachment.html; sourceTree = "<group>"; };
+		BCB710DE1C9D3D7500B876E8 /* NIMUserInfo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMUserInfo.html; sourceTree = "<group>"; };
+		BCB710DF1C9D3D7500B876E8 /* NIMUserRequest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMUserRequest.html; sourceTree = "<group>"; };
+		BCB710E01C9D3D7500B876E8 /* NIMVideoObject.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMVideoObject.html; sourceTree = "<group>"; };
+		BCB710E21C9D3D7500B876E8 /* NIMAudioOutputDevice.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMAudioOutputDevice.html; sourceTree = "<group>"; };
+		BCB710E31C9D3D7500B876E8 /* NIMChatroomConnectionState.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomConnectionState.html; sourceTree = "<group>"; };
+		BCB710E41C9D3D7500B876E8 /* NIMChatroomEventType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomEventType.html; sourceTree = "<group>"; };
+		BCB710E51C9D3D7500B876E8 /* NIMChatroomFetchMemberType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomFetchMemberType.html; sourceTree = "<group>"; };
+		BCB710E61C9D3D7500B876E8 /* NIMChatroomKickReason.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomKickReason.html; sourceTree = "<group>"; };
+		BCB710E71C9D3D7500B876E8 /* NIMChatroomMemberType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomMemberType.html; sourceTree = "<group>"; };
+		BCB710E81C9D3D7500B876E8 /* NIMKickReason.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMKickReason.html; sourceTree = "<group>"; };
+		BCB710E91C9D3D7500B876E8 /* NIMLocalErrorCode.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMLocalErrorCode.html; sourceTree = "<group>"; };
+		BCB710EA1C9D3D7500B876E8 /* NIMLoginClientType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMLoginClientType.html; sourceTree = "<group>"; };
+		BCB710EB1C9D3D7500B876E8 /* NIMLoginStep.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMLoginStep.html; sourceTree = "<group>"; };
+		BCB710EC1C9D3D7500B876E8 /* NIMMessageAttachmentDownloadState.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMMessageAttachmentDownloadState.html; sourceTree = "<group>"; };
+		BCB710ED1C9D3D7500B876E8 /* NIMMessageDeliveryState.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMMessageDeliveryState.html; sourceTree = "<group>"; };
+		BCB710EE1C9D3D7500B876E8 /* NIMMessageType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMMessageType.html; sourceTree = "<group>"; };
+		BCB710EF1C9D3D7500B876E8 /* NIMNetCallCamera.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMNetCallCamera.html; sourceTree = "<group>"; };
+		BCB710F01C9D3D7500B876E8 /* NIMNetCallControlType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMNetCallControlType.html; sourceTree = "<group>"; };
+		BCB710F11C9D3D7500B876E8 /* NIMNetCallEventType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMNetCallEventType.html; sourceTree = "<group>"; };
+		BCB710F21C9D3D7500B876E8 /* NIMNetCallNetStatus.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMNetCallNetStatus.html; sourceTree = "<group>"; };
+		BCB710F31C9D3D7500B876E8 /* NIMNetCallStatus.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMNetCallStatus.html; sourceTree = "<group>"; };
+		BCB710F41C9D3D7500B876E8 /* NIMNetCallType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMNetCallType.html; sourceTree = "<group>"; };
+		BCB710F51C9D3D7500B876E8 /* NIMNetCallVideoQuality.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMNetCallVideoQuality.html; sourceTree = "<group>"; };
+		BCB710F61C9D3D7500B876E8 /* NIMNotificationType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMNotificationType.html; sourceTree = "<group>"; };
+		BCB710F71C9D3D7500B876E8 /* NIMPushNotificationDisplayType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMPushNotificationDisplayType.html; sourceTree = "<group>"; };
+		BCB710F81C9D3D7500B876E8 /* NIMRemoteErrorCode.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMRemoteErrorCode.html; sourceTree = "<group>"; };
+		BCB710F91C9D3D7500B876E8 /* NIMRTSService.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMRTSService.html; sourceTree = "<group>"; };
+		BCB710FA1C9D3D7500B876E8 /* NIMRTSStatus.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMRTSStatus.html; sourceTree = "<group>"; };
+		BCB710FB1C9D3D7500B876E8 /* NIMSessionType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMSessionType.html; sourceTree = "<group>"; };
+		BCB710FC1C9D3D7500B876E8 /* NIMSystemNotificationType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMSystemNotificationType.html; sourceTree = "<group>"; };
+		BCB710FD1C9D3D7500B876E8 /* NIMTeamApplyStatus.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMTeamApplyStatus.html; sourceTree = "<group>"; };
+		BCB710FE1C9D3D7500B876E8 /* NIMTeamJoinMode.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMTeamJoinMode.html; sourceTree = "<group>"; };
+		BCB710FF1C9D3D7500B876E8 /* NIMTeamMemberType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMTeamMemberType.html; sourceTree = "<group>"; };
+		BCB711001C9D3D7500B876E8 /* NIMTeamOperationType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMTeamOperationType.html; sourceTree = "<group>"; };
+		BCB711011C9D3D7500B876E8 /* NIMTeamType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMTeamType.html; sourceTree = "<group>"; };
+		BCB711021C9D3D7500B876E8 /* NIMTeamUpdateTag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMTeamUpdateTag.html; sourceTree = "<group>"; };
+		BCB711031C9D3D7500B876E8 /* NIMUserGender.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMUserGender.html; sourceTree = "<group>"; };
+		BCB711041C9D3D7500B876E8 /* NIMUserInfoUpdateTag.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMUserInfoUpdateTag.html; sourceTree = "<group>"; };
+		BCB711051C9D3D7500B876E8 /* NIMUserOperation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMUserOperation.html; sourceTree = "<group>"; };
+		BCB711081C9D3D7500B876E8 /* _index.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _index.scss; sourceTree = "<group>"; };
+		BCB711091C9D3D7500B876E8 /* _layout.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _layout.scss; sourceTree = "<group>"; };
+		BCB7110A1C9D3D7500B876E8 /* _normalize.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _normalize.scss; sourceTree = "<group>"; };
+		BCB7110B1C9D3D7500B876E8 /* _object.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _object.scss; sourceTree = "<group>"; };
+		BCB7110C1C9D3D7500B876E8 /* _print.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _print.scss; sourceTree = "<group>"; };
+		BCB7110D1C9D3D7500B876E8 /* _variables.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _variables.scss; sourceTree = "<group>"; };
+		BCB7110E1C9D3D7500B876E8 /* _xcode.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = _xcode.scss; sourceTree = "<group>"; };
+		BCB7110F1C9D3D7500B876E8 /* style.scss */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = style.scss; sourceTree = "<group>"; };
+		BCB711101C9D3D7500B876E8 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		BCB711111C9D3D7500B876E8 /* hierarchy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hierarchy.html; sourceTree = "<group>"; };
+		BCB711131C9D3D7500B876E8 /* button_bar_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_bar_background.png; sourceTree = "<group>"; };
+		BCB711141C9D3D7500B876E8 /* disclosure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure.png; sourceTree = "<group>"; };
+		BCB711151C9D3D7500B876E8 /* disclosure_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclosure_open.png; sourceTree = "<group>"; };
+		BCB711161C9D3D7500B876E8 /* library_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = library_background.png; sourceTree = "<group>"; };
+		BCB711171C9D3D7500B876E8 /* title_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_background.png; sourceTree = "<group>"; };
+		BCB711181C9D3D7500B876E8 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		BCB7111A1C9D3D7500B876E8 /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		BCB7111C1C9D3D7500B876E8 /* NIMChatManager.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatManager.html; sourceTree = "<group>"; };
+		BCB7111D1C9D3D7500B876E8 /* NIMChatManagerDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatManagerDelegate.html; sourceTree = "<group>"; };
+		BCB7111E1C9D3D7500B876E8 /* NIMChatroomManager.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomManager.html; sourceTree = "<group>"; };
+		BCB7111F1C9D3D7500B876E8 /* NIMChatroomManagerDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMChatroomManagerDelegate.html; sourceTree = "<group>"; };
+		BCB711201C9D3D7500B876E8 /* NIMConversationManager.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMConversationManager.html; sourceTree = "<group>"; };
+		BCB711211C9D3D7500B876E8 /* NIMConversationManagerDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMConversationManagerDelegate.html; sourceTree = "<group>"; };
+		BCB711221C9D3D7500B876E8 /* NIMCustomAttachment.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMCustomAttachment.html; sourceTree = "<group>"; };
+		BCB711231C9D3D7500B876E8 /* NIMCustomAttachmentCoding.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMCustomAttachmentCoding.html; sourceTree = "<group>"; };
+		BCB711241C9D3D7500B876E8 /* NIMLoginManager.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMLoginManager.html; sourceTree = "<group>"; };
+		BCB711251C9D3D7500B876E8 /* NIMLoginManagerDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMLoginManagerDelegate.html; sourceTree = "<group>"; };
+		BCB711261C9D3D7500B876E8 /* NIMMediaManager.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMMediaManager.html; sourceTree = "<group>"; };
+		BCB711271C9D3D7500B876E8 /* NIMMediaManagerDelgate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMMediaManagerDelgate.html; sourceTree = "<group>"; };
+		BCB711281C9D3D7500B876E8 /* NIMMessageObject.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMMessageObject.html; sourceTree = "<group>"; };
+		BCB711291C9D3D7500B876E8 /* NIMNetCallManager.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMNetCallManager.html; sourceTree = "<group>"; };
+		BCB7112A1C9D3D7500B876E8 /* NIMNetCallManagerDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMNetCallManagerDelegate.html; sourceTree = "<group>"; };
+		BCB7112B1C9D3D7500B876E8 /* NIMResourceManager.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMResourceManager.html; sourceTree = "<group>"; };
+		BCB7112C1C9D3D7500B876E8 /* NIMRTSManager.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMRTSManager.html; sourceTree = "<group>"; };
+		BCB7112D1C9D3D7500B876E8 /* NIMRTSManagerDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMRTSManagerDelegate.html; sourceTree = "<group>"; };
+		BCB7112E1C9D3D7500B876E8 /* NIMSystemNotificationManager.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMSystemNotificationManager.html; sourceTree = "<group>"; };
+		BCB7112F1C9D3D7500B876E8 /* NIMSystemNotificationManagerDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMSystemNotificationManagerDelegate.html; sourceTree = "<group>"; };
+		BCB711301C9D3D7500B876E8 /* NIMTeamManager.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMTeamManager.html; sourceTree = "<group>"; };
+		BCB711311C9D3D7500B876E8 /* NIMTeamManagerDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMTeamManagerDelegate.html; sourceTree = "<group>"; };
+		BCB711321C9D3D7500B876E8 /* NIMUserManager.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMUserManager.html; sourceTree = "<group>"; };
+		BCB711331C9D3D7500B876E8 /* NIMUserManagerDelegate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NIMUserManagerDelegate.html; sourceTree = "<group>"; };
+		BCB711361C9D3D7500B876E8 /* NIMChatroom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMChatroom.h; sourceTree = "<group>"; };
+		BCB711371C9D3D7500B876E8 /* NIMChatroomEnterRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMChatroomEnterRequest.h; sourceTree = "<group>"; };
+		BCB711381C9D3D7500B876E8 /* NIMChatroomMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMChatroomMember.h; sourceTree = "<group>"; };
+		BCB711391C9D3D7500B876E8 /* NIMChatroomMemberRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMChatroomMemberRequest.h; sourceTree = "<group>"; };
+		BCB7113A1C9D3D7500B876E8 /* NIMMessageChatroomExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMessageChatroomExtension.h; sourceTree = "<group>"; };
+		BCB7113C1C9D3D7500B876E8 /* NIMAudioObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMAudioObject.h; sourceTree = "<group>"; };
+		BCB7113D1C9D3D7500B876E8 /* NIMCustomObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMCustomObject.h; sourceTree = "<group>"; };
+		BCB7113E1C9D3D7500B876E8 /* NIMFileObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMFileObject.h; sourceTree = "<group>"; };
+		BCB7113F1C9D3D7500B876E8 /* NIMImageObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMImageObject.h; sourceTree = "<group>"; };
+		BCB711401C9D3D7500B876E8 /* NIMLocationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMLocationObject.h; sourceTree = "<group>"; };
+		BCB711411C9D3D7500B876E8 /* NIMNotificationObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMNotificationObject.h; sourceTree = "<group>"; };
+		BCB711421C9D3D7500B876E8 /* NIMTipObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMTipObject.h; sourceTree = "<group>"; };
+		BCB711431C9D3D7500B876E8 /* NIMVideoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMVideoObject.h; sourceTree = "<group>"; };
+		BCB711451C9D3D7500B876E8 /* NIMChatroomNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMChatroomNotificationContent.h; sourceTree = "<group>"; };
+		BCB711461C9D3D7500B876E8 /* NIMNetCallNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMNetCallNotificationContent.h; sourceTree = "<group>"; };
+		BCB711471C9D3D7500B876E8 /* NIMNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMNotificationContent.h; sourceTree = "<group>"; };
+		BCB711481C9D3D7500B876E8 /* NIMTeamNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMTeamNotificationContent.h; sourceTree = "<group>"; };
+		BCB711491C9D3D7500B876E8 /* NIMUnsupportedNotificationContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMUnsupportedNotificationContent.h; sourceTree = "<group>"; };
+		BCB7114A1C9D3D7500B876E8 /* NIMCustomSystemNotificationSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMCustomSystemNotificationSetting.h; sourceTree = "<group>"; };
+		BCB7114B1C9D3D7500B876E8 /* NIMGlobalDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMGlobalDefs.h; sourceTree = "<group>"; };
+		BCB7114C1C9D3D7500B876E8 /* NIMLoginClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMLoginClient.h; sourceTree = "<group>"; };
+		BCB7114D1C9D3D7500B876E8 /* NIMMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMessage.h; sourceTree = "<group>"; };
+		BCB7114E1C9D3D7500B876E8 /* NIMMessageSearchOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMessageSearchOption.h; sourceTree = "<group>"; };
+		BCB7114F1C9D3D7500B876E8 /* NIMMessageSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMessageSetting.h; sourceTree = "<group>"; };
+		BCB711501C9D3D7500B876E8 /* NIMNetCallOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMNetCallOption.h; sourceTree = "<group>"; };
+		BCB711511C9D3D7500B876E8 /* NIMPushNotificationSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMPushNotificationSetting.h; sourceTree = "<group>"; };
+		BCB711521C9D3D7500B876E8 /* NIMRecentSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMRecentSession.h; sourceTree = "<group>"; };
+		BCB711531C9D3D7500B876E8 /* NIMRTSOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMRTSOption.h; sourceTree = "<group>"; };
+		BCB711541C9D3D7500B876E8 /* NIMRTSRecordingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMRTSRecordingInfo.h; sourceTree = "<group>"; };
+		BCB711551C9D3D7500B876E8 /* NIMSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSDK.h; sourceTree = "<group>"; };
+		BCB711561C9D3D7500B876E8 /* NIMSDKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSDKConfig.h; sourceTree = "<group>"; };
+		BCB711571C9D3D7500B876E8 /* NIMSDKHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSDKHeaders.h; sourceTree = "<group>"; };
+		BCB711581C9D3D7500B876E8 /* NIMSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSession.h; sourceTree = "<group>"; };
+		BCB711591C9D3D7500B876E8 /* NIMSystemNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSystemNotification.h; sourceTree = "<group>"; };
+		BCB7115A1C9D3D7500B876E8 /* NIMTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMTeam.h; sourceTree = "<group>"; };
+		BCB7115B1C9D3D7500B876E8 /* NIMTeamMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMTeamMember.h; sourceTree = "<group>"; };
+		BCB7115C1C9D3D7500B876E8 /* NIMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMUser.h; sourceTree = "<group>"; };
+		BCB7115E1C9D3D7500B876E8 /* NIMApnsManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMApnsManagerProtocol.h; sourceTree = "<group>"; };
+		BCB7115F1C9D3D7500B876E8 /* NIMChatManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMChatManagerProtocol.h; sourceTree = "<group>"; };
+		BCB711601C9D3D7500B876E8 /* NIMChatroomManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMChatroomManagerProtocol.h; sourceTree = "<group>"; };
+		BCB711611C9D3D7500B876E8 /* NIMConversationManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMConversationManagerProtocol.h; sourceTree = "<group>"; };
+		BCB711621C9D3D7500B876E8 /* NIMLoginManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMLoginManagerProtocol.h; sourceTree = "<group>"; };
+		BCB711631C9D3D7500B876E8 /* NIMMediaManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMediaManagerProtocol.h; sourceTree = "<group>"; };
+		BCB711641C9D3D7500B876E8 /* NIMMessageObjectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMMessageObjectProtocol.h; sourceTree = "<group>"; };
+		BCB711651C9D3D7500B876E8 /* NIMNetCallManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMNetCallManagerProtocol.h; sourceTree = "<group>"; };
+		BCB711661C9D3D7500B876E8 /* NIMResourceManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMResourceManagerProtocol.h; sourceTree = "<group>"; };
+		BCB711671C9D3D7500B876E8 /* NIMRTSManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMRTSManagerProtocol.h; sourceTree = "<group>"; };
+		BCB711681C9D3D7500B876E8 /* NIMSystemNotificationManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMSystemNotificationManagerProtocol.h; sourceTree = "<group>"; };
+		BCB711691C9D3D7500B876E8 /* NIMTeamManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMTeamManagerProtocol.h; sourceTree = "<group>"; };
+		BCB7116A1C9D3D7500B876E8 /* NIMUserManagerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NIMUserManagerProtocol.h; sourceTree = "<group>"; };
+		BCB7116B1C9D3D7500B876E8 /* libNIMSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNIMSDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +422,7 @@
 				BCB710751C9D391900B876E8 /* AVFoundation.framework in Frameworks */,
 				BCB710731C9D390B00B876E8 /* SystemConfiguration.framework in Frameworks */,
 				BCB710711C9D390100B876E8 /* MobileCoreServices.framework in Frameworks */,
-				BCB7106F1C9D38B200B876E8 /* libNIMSDK.a in Frameworks */,
+				BCB712071C9D3D7500B876E8 /* libNIMSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,9 +457,9 @@
 		BCB710521C9D37C000B876E8 /* SuIMDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BCB7106A1C9D38B200B876E8 /* doc */,
-				BCB7106B1C9D38B200B876E8 /* ExportHeaders */,
-				BCB7106C1C9D38B200B876E8 /* libNIMSDK.a */,
+				BCB7108F1C9D3D7500B876E8 /* doc */,
+				BCB711341C9D3D7500B876E8 /* ExportHeaders */,
+				BCB7116B1C9D3D7500B876E8 /* libNIMSDK.a */,
 				BCB710561C9D37C000B876E8 /* AppDelegate.h */,
 				BCB710571C9D37C000B876E8 /* AppDelegate.m */,
 				BCB710591C9D37C000B876E8 /* ViewController.h */,
@@ -123,6 +479,329 @@
 				BCB710541C9D37C000B876E8 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCB7108F1C9D3D7500B876E8 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				BCB710901C9D3D7500B876E8 /* com.netease.nimsdk.NIMSDK.docset */,
+				BCB710911C9D3D7500B876E8 /* NIMSDK-iOS */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		BCB710911C9D3D7500B876E8 /* NIMSDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BCB710921C9D3D7500B876E8 /* Blocks */,
+				BCB710B01C9D3D7500B876E8 /* Classes */,
+				BCB710E11C9D3D7500B876E8 /* Constants */,
+				BCB711061C9D3D7500B876E8 /* css */,
+				BCB711111C9D3D7500B876E8 /* hierarchy.html */,
+				BCB711121C9D3D7500B876E8 /* img */,
+				BCB711181C9D3D7500B876E8 /* index.html */,
+				BCB711191C9D3D7500B876E8 /* js */,
+				BCB7111B1C9D3D7500B876E8 /* Protocols */,
+			);
+			path = "NIMSDK-iOS";
+			sourceTree = "<group>";
+		};
+		BCB710921C9D3D7500B876E8 /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				BCB710931C9D3D7500B876E8 /* NIMApnsHandler.html */,
+				BCB710941C9D3D7500B876E8 /* NIMAudioToTextBlock.html */,
+				BCB710951C9D3D7500B876E8 /* NIMBadgeHandler.html */,
+				BCB710961C9D3D7500B876E8 /* NIMChatroomEnterHandler.html */,
+				BCB710971C9D3D7500B876E8 /* NIMChatroomHandler.html */,
+				BCB710981C9D3D7500B876E8 /* NIMChatroomInfoHandler.html */,
+				BCB710991C9D3D7500B876E8 /* NIMChatroomMemberHandler.html */,
+				BCB7109A1C9D3D7500B876E8 /* NIMChatroomMembersHandler.html */,
+				BCB7109B1C9D3D7500B876E8 /* NIMDownloadCompleteBlock.html */,
+				BCB7109C1C9D3D7500B876E8 /* NIMFetchChatroomHistoryBlock.html */,
+				BCB7109D1C9D3D7500B876E8 /* NIMFetchMessageHistoryBlock.html */,
+				BCB7109E1C9D3D7500B876E8 /* NIMHttpProgressBlock.html */,
+				BCB7109F1C9D3D7500B876E8 /* NIMLoginHandler.html */,
+				BCB710A01C9D3D7500B876E8 /* NIMNetCallResponseHandler.html */,
+				BCB710A11C9D3D7500B876E8 /* NIMNetCallStartHandler.html */,
+				BCB710A21C9D3D7500B876E8 /* NIMRemoveRemoteSessionBlock.html */,
+				BCB710A31C9D3D7500B876E8 /* NIMRTSRequestHandler.html */,
+				BCB710A41C9D3D7500B876E8 /* NIMRTSResponseHandler.html */,
+				BCB710A51C9D3D7500B876E8 /* NIMSearchMessageBlock.html */,
+				BCB710A61C9D3D7500B876E8 /* NIMSystemNotificationHandler.html */,
+				BCB710A71C9D3D7500B876E8 /* NIMTeamApplyHandler.html */,
+				BCB710A81C9D3D7500B876E8 /* NIMTeamCreateHandler.html */,
+				BCB710A91C9D3D7500B876E8 /* NIMTeamFetchInfoHandler.html */,
+				BCB710AA1C9D3D7500B876E8 /* NIMTeamHandler.html */,
+				BCB710AB1C9D3D7500B876E8 /* NIMTeamMemberHandler.html */,
+				BCB710AC1C9D3D7500B876E8 /* NIMUpdateMessageBlock.html */,
+				BCB710AD1C9D3D7500B876E8 /* NIMUploadCompleteBlock.html */,
+				BCB710AE1C9D3D7500B876E8 /* NIMUserBlock.html */,
+				BCB710AF1C9D3D7500B876E8 /* NIMUserInfoBlock.html */,
+			);
+			path = Blocks;
+			sourceTree = "<group>";
+		};
+		BCB710B01C9D3D7500B876E8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BCB710B11C9D3D7500B876E8 /* NIMAudioObject.html */,
+				BCB710B21C9D3D7500B876E8 /* NIMAudioToTextOption.html */,
+				BCB710B31C9D3D7500B876E8 /* NIMAutoLoginData.html */,
+				BCB710B41C9D3D7500B876E8 /* NIMChatroom.html */,
+				BCB710B51C9D3D7500B876E8 /* NIMChatroomEnterRequest.html */,
+				BCB710B61C9D3D7500B876E8 /* NIMChatroomMember.html */,
+				BCB710B71C9D3D7500B876E8 /* NIMChatroomMemberKickRequest.html */,
+				BCB710B81C9D3D7500B876E8 /* NIMChatroomMemberRequest.html */,
+				BCB710B91C9D3D7500B876E8 /* NIMChatroomMembersByIdsRequest.html */,
+				BCB710BA1C9D3D7500B876E8 /* NIMChatroomMemberUpdateRequest.html */,
+				BCB710BB1C9D3D7500B876E8 /* NIMChatroomNotificationContent.html */,
+				BCB710BC1C9D3D7500B876E8 /* NIMChatroomNotificationMember.html */,
+				BCB710BD1C9D3D7500B876E8 /* NIMCreateTeamOption.html */,
+				BCB710BE1C9D3D7500B876E8 /* NIMCustomObject.html */,
+				BCB710BF1C9D3D7500B876E8 /* NIMCustomSystemNotification.html */,
+				BCB710C01C9D3D7500B876E8 /* NIMCustomSystemNotificationSetting.html */,
+				BCB710C11C9D3D7500B876E8 /* NIMFileObject.html */,
+				BCB710C21C9D3D7500B876E8 /* NIMHistoryMessageSearchOption.html */,
+				BCB710C31C9D3D7500B876E8 /* NIMImageObject.html */,
+				BCB710C41C9D3D7500B876E8 /* NIMImageOption.html */,
+				BCB710C51C9D3D7500B876E8 /* NIMLocationObject.html */,
+				BCB710C61C9D3D7500B876E8 /* NIMLoginClient.html */,
+				BCB710C71C9D3D7500B876E8 /* NIMMessage.html */,
+				BCB710C81C9D3D7500B876E8 /* NIMMessageChatroomExtension.html */,
+				BCB710C91C9D3D7500B876E8 /* NIMMessageSearchOption.html */,
+				BCB710CA1C9D3D7500B876E8 /* NIMMessageSetting.html */,
+				BCB710CB1C9D3D7500B876E8 /* NIMNetCallNotificationContent.html */,
+				BCB710CC1C9D3D7500B876E8 /* NIMNetCallOption.html */,
+				BCB710CD1C9D3D7500B876E8 /* NIMNotificationContent.html */,
+				BCB710CE1C9D3D7500B876E8 /* NIMNotificationObject.html */,
+				BCB710CF1C9D3D7500B876E8 /* NIMPushNotificationSetting.html */,
+				BCB710D01C9D3D7500B876E8 /* NIMRecentSession.html */,
+				BCB710D11C9D3D7500B876E8 /* NIMRTSOption.html */,
+				BCB710D21C9D3D7500B876E8 /* NIMRTSRecordingInfo.html */,
+				BCB710D31C9D3D7500B876E8 /* NIMSDK.html */,
+				BCB710D41C9D3D7500B876E8 /* NIMSDKConfig.html */,
+				BCB710D51C9D3D7500B876E8 /* NIMSession.html */,
+				BCB710D61C9D3D7500B876E8 /* NIMSystemNotification.html */,
+				BCB710D71C9D3D7500B876E8 /* NIMSystemNotificationFilter.html */,
+				BCB710D81C9D3D7500B876E8 /* NIMTeam.html */,
+				BCB710D91C9D3D7500B876E8 /* NIMTeamMember.html */,
+				BCB710DA1C9D3D7500B876E8 /* NIMTeamNotificationContent.html */,
+				BCB710DB1C9D3D7500B876E8 /* NIMUpdateTeamInfoAttachment.html */,
+				BCB710DC1C9D3D7500B876E8 /* NIMUser.html */,
+				BCB710DD1C9D3D7500B876E8 /* NIMUserAddAttachment.html */,
+				BCB710DE1C9D3D7500B876E8 /* NIMUserInfo.html */,
+				BCB710DF1C9D3D7500B876E8 /* NIMUserRequest.html */,
+				BCB710E01C9D3D7500B876E8 /* NIMVideoObject.html */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BCB710E11C9D3D7500B876E8 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BCB710E21C9D3D7500B876E8 /* NIMAudioOutputDevice.html */,
+				BCB710E31C9D3D7500B876E8 /* NIMChatroomConnectionState.html */,
+				BCB710E41C9D3D7500B876E8 /* NIMChatroomEventType.html */,
+				BCB710E51C9D3D7500B876E8 /* NIMChatroomFetchMemberType.html */,
+				BCB710E61C9D3D7500B876E8 /* NIMChatroomKickReason.html */,
+				BCB710E71C9D3D7500B876E8 /* NIMChatroomMemberType.html */,
+				BCB710E81C9D3D7500B876E8 /* NIMKickReason.html */,
+				BCB710E91C9D3D7500B876E8 /* NIMLocalErrorCode.html */,
+				BCB710EA1C9D3D7500B876E8 /* NIMLoginClientType.html */,
+				BCB710EB1C9D3D7500B876E8 /* NIMLoginStep.html */,
+				BCB710EC1C9D3D7500B876E8 /* NIMMessageAttachmentDownloadState.html */,
+				BCB710ED1C9D3D7500B876E8 /* NIMMessageDeliveryState.html */,
+				BCB710EE1C9D3D7500B876E8 /* NIMMessageType.html */,
+				BCB710EF1C9D3D7500B876E8 /* NIMNetCallCamera.html */,
+				BCB710F01C9D3D7500B876E8 /* NIMNetCallControlType.html */,
+				BCB710F11C9D3D7500B876E8 /* NIMNetCallEventType.html */,
+				BCB710F21C9D3D7500B876E8 /* NIMNetCallNetStatus.html */,
+				BCB710F31C9D3D7500B876E8 /* NIMNetCallStatus.html */,
+				BCB710F41C9D3D7500B876E8 /* NIMNetCallType.html */,
+				BCB710F51C9D3D7500B876E8 /* NIMNetCallVideoQuality.html */,
+				BCB710F61C9D3D7500B876E8 /* NIMNotificationType.html */,
+				BCB710F71C9D3D7500B876E8 /* NIMPushNotificationDisplayType.html */,
+				BCB710F81C9D3D7500B876E8 /* NIMRemoteErrorCode.html */,
+				BCB710F91C9D3D7500B876E8 /* NIMRTSService.html */,
+				BCB710FA1C9D3D7500B876E8 /* NIMRTSStatus.html */,
+				BCB710FB1C9D3D7500B876E8 /* NIMSessionType.html */,
+				BCB710FC1C9D3D7500B876E8 /* NIMSystemNotificationType.html */,
+				BCB710FD1C9D3D7500B876E8 /* NIMTeamApplyStatus.html */,
+				BCB710FE1C9D3D7500B876E8 /* NIMTeamJoinMode.html */,
+				BCB710FF1C9D3D7500B876E8 /* NIMTeamMemberType.html */,
+				BCB711001C9D3D7500B876E8 /* NIMTeamOperationType.html */,
+				BCB711011C9D3D7500B876E8 /* NIMTeamType.html */,
+				BCB711021C9D3D7500B876E8 /* NIMTeamUpdateTag.html */,
+				BCB711031C9D3D7500B876E8 /* NIMUserGender.html */,
+				BCB711041C9D3D7500B876E8 /* NIMUserInfoUpdateTag.html */,
+				BCB711051C9D3D7500B876E8 /* NIMUserOperation.html */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BCB711061C9D3D7500B876E8 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				BCB711071C9D3D7500B876E8 /* scss */,
+				BCB711101C9D3D7500B876E8 /* style.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		BCB711071C9D3D7500B876E8 /* scss */ = {
+			isa = PBXGroup;
+			children = (
+				BCB711081C9D3D7500B876E8 /* _index.scss */,
+				BCB711091C9D3D7500B876E8 /* _layout.scss */,
+				BCB7110A1C9D3D7500B876E8 /* _normalize.scss */,
+				BCB7110B1C9D3D7500B876E8 /* _object.scss */,
+				BCB7110C1C9D3D7500B876E8 /* _print.scss */,
+				BCB7110D1C9D3D7500B876E8 /* _variables.scss */,
+				BCB7110E1C9D3D7500B876E8 /* _xcode.scss */,
+				BCB7110F1C9D3D7500B876E8 /* style.scss */,
+			);
+			path = scss;
+			sourceTree = "<group>";
+		};
+		BCB711121C9D3D7500B876E8 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				BCB711131C9D3D7500B876E8 /* button_bar_background.png */,
+				BCB711141C9D3D7500B876E8 /* disclosure.png */,
+				BCB711151C9D3D7500B876E8 /* disclosure_open.png */,
+				BCB711161C9D3D7500B876E8 /* library_background.png */,
+				BCB711171C9D3D7500B876E8 /* title_background.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		BCB711191C9D3D7500B876E8 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				BCB7111A1C9D3D7500B876E8 /* script.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		BCB7111B1C9D3D7500B876E8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BCB7111C1C9D3D7500B876E8 /* NIMChatManager.html */,
+				BCB7111D1C9D3D7500B876E8 /* NIMChatManagerDelegate.html */,
+				BCB7111E1C9D3D7500B876E8 /* NIMChatroomManager.html */,
+				BCB7111F1C9D3D7500B876E8 /* NIMChatroomManagerDelegate.html */,
+				BCB711201C9D3D7500B876E8 /* NIMConversationManager.html */,
+				BCB711211C9D3D7500B876E8 /* NIMConversationManagerDelegate.html */,
+				BCB711221C9D3D7500B876E8 /* NIMCustomAttachment.html */,
+				BCB711231C9D3D7500B876E8 /* NIMCustomAttachmentCoding.html */,
+				BCB711241C9D3D7500B876E8 /* NIMLoginManager.html */,
+				BCB711251C9D3D7500B876E8 /* NIMLoginManagerDelegate.html */,
+				BCB711261C9D3D7500B876E8 /* NIMMediaManager.html */,
+				BCB711271C9D3D7500B876E8 /* NIMMediaManagerDelgate.html */,
+				BCB711281C9D3D7500B876E8 /* NIMMessageObject.html */,
+				BCB711291C9D3D7500B876E8 /* NIMNetCallManager.html */,
+				BCB7112A1C9D3D7500B876E8 /* NIMNetCallManagerDelegate.html */,
+				BCB7112B1C9D3D7500B876E8 /* NIMResourceManager.html */,
+				BCB7112C1C9D3D7500B876E8 /* NIMRTSManager.html */,
+				BCB7112D1C9D3D7500B876E8 /* NIMRTSManagerDelegate.html */,
+				BCB7112E1C9D3D7500B876E8 /* NIMSystemNotificationManager.html */,
+				BCB7112F1C9D3D7500B876E8 /* NIMSystemNotificationManagerDelegate.html */,
+				BCB711301C9D3D7500B876E8 /* NIMTeamManager.html */,
+				BCB711311C9D3D7500B876E8 /* NIMTeamManagerDelegate.html */,
+				BCB711321C9D3D7500B876E8 /* NIMUserManager.html */,
+				BCB711331C9D3D7500B876E8 /* NIMUserManagerDelegate.html */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BCB711341C9D3D7500B876E8 /* ExportHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				BCB711351C9D3D7500B876E8 /* Chatroom */,
+				BCB7113B1C9D3D7500B876E8 /* MessageObject */,
+				BCB7114A1C9D3D7500B876E8 /* NIMCustomSystemNotificationSetting.h */,
+				BCB7114B1C9D3D7500B876E8 /* NIMGlobalDefs.h */,
+				BCB7114C1C9D3D7500B876E8 /* NIMLoginClient.h */,
+				BCB7114D1C9D3D7500B876E8 /* NIMMessage.h */,
+				BCB7114E1C9D3D7500B876E8 /* NIMMessageSearchOption.h */,
+				BCB7114F1C9D3D7500B876E8 /* NIMMessageSetting.h */,
+				BCB711501C9D3D7500B876E8 /* NIMNetCallOption.h */,
+				BCB711511C9D3D7500B876E8 /* NIMPushNotificationSetting.h */,
+				BCB711521C9D3D7500B876E8 /* NIMRecentSession.h */,
+				BCB711531C9D3D7500B876E8 /* NIMRTSOption.h */,
+				BCB711541C9D3D7500B876E8 /* NIMRTSRecordingInfo.h */,
+				BCB711551C9D3D7500B876E8 /* NIMSDK.h */,
+				BCB711561C9D3D7500B876E8 /* NIMSDKConfig.h */,
+				BCB711571C9D3D7500B876E8 /* NIMSDKHeaders.h */,
+				BCB711581C9D3D7500B876E8 /* NIMSession.h */,
+				BCB711591C9D3D7500B876E8 /* NIMSystemNotification.h */,
+				BCB7115A1C9D3D7500B876E8 /* NIMTeam.h */,
+				BCB7115B1C9D3D7500B876E8 /* NIMTeamMember.h */,
+				BCB7115C1C9D3D7500B876E8 /* NIMUser.h */,
+				BCB7115D1C9D3D7500B876E8 /* Protocol */,
+			);
+			path = ExportHeaders;
+			sourceTree = "<group>";
+		};
+		BCB711351C9D3D7500B876E8 /* Chatroom */ = {
+			isa = PBXGroup;
+			children = (
+				BCB711361C9D3D7500B876E8 /* NIMChatroom.h */,
+				BCB711371C9D3D7500B876E8 /* NIMChatroomEnterRequest.h */,
+				BCB711381C9D3D7500B876E8 /* NIMChatroomMember.h */,
+				BCB711391C9D3D7500B876E8 /* NIMChatroomMemberRequest.h */,
+				BCB7113A1C9D3D7500B876E8 /* NIMMessageChatroomExtension.h */,
+			);
+			path = Chatroom;
+			sourceTree = "<group>";
+		};
+		BCB7113B1C9D3D7500B876E8 /* MessageObject */ = {
+			isa = PBXGroup;
+			children = (
+				BCB7113C1C9D3D7500B876E8 /* NIMAudioObject.h */,
+				BCB7113D1C9D3D7500B876E8 /* NIMCustomObject.h */,
+				BCB7113E1C9D3D7500B876E8 /* NIMFileObject.h */,
+				BCB7113F1C9D3D7500B876E8 /* NIMImageObject.h */,
+				BCB711401C9D3D7500B876E8 /* NIMLocationObject.h */,
+				BCB711411C9D3D7500B876E8 /* NIMNotificationObject.h */,
+				BCB711421C9D3D7500B876E8 /* NIMTipObject.h */,
+				BCB711431C9D3D7500B876E8 /* NIMVideoObject.h */,
+				BCB711441C9D3D7500B876E8 /* NotificationContent */,
+			);
+			path = MessageObject;
+			sourceTree = "<group>";
+		};
+		BCB711441C9D3D7500B876E8 /* NotificationContent */ = {
+			isa = PBXGroup;
+			children = (
+				BCB711451C9D3D7500B876E8 /* NIMChatroomNotificationContent.h */,
+				BCB711461C9D3D7500B876E8 /* NIMNetCallNotificationContent.h */,
+				BCB711471C9D3D7500B876E8 /* NIMNotificationContent.h */,
+				BCB711481C9D3D7500B876E8 /* NIMTeamNotificationContent.h */,
+				BCB711491C9D3D7500B876E8 /* NIMUnsupportedNotificationContent.h */,
+			);
+			path = NotificationContent;
+			sourceTree = "<group>";
+		};
+		BCB7115D1C9D3D7500B876E8 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				BCB7115E1C9D3D7500B876E8 /* NIMApnsManagerProtocol.h */,
+				BCB7115F1C9D3D7500B876E8 /* NIMChatManagerProtocol.h */,
+				BCB711601C9D3D7500B876E8 /* NIMChatroomManagerProtocol.h */,
+				BCB711611C9D3D7500B876E8 /* NIMConversationManagerProtocol.h */,
+				BCB711621C9D3D7500B876E8 /* NIMLoginManagerProtocol.h */,
+				BCB711631C9D3D7500B876E8 /* NIMMediaManagerProtocol.h */,
+				BCB711641C9D3D7500B876E8 /* NIMMessageObjectProtocol.h */,
+				BCB711651C9D3D7500B876E8 /* NIMNetCallManagerProtocol.h */,
+				BCB711661C9D3D7500B876E8 /* NIMResourceManagerProtocol.h */,
+				BCB711671C9D3D7500B876E8 /* NIMRTSManagerProtocol.h */,
+				BCB711681C9D3D7500B876E8 /* NIMSystemNotificationManagerProtocol.h */,
+				BCB711691C9D3D7500B876E8 /* NIMTeamManagerProtocol.h */,
+				BCB7116A1C9D3D7500B876E8 /* NIMUserManagerProtocol.h */,
+			);
+			path = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,11 +862,164 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCB7106E1C9D38B200B876E8 /* ExportHeaders in Resources */,
+				BCB711CE1C9D3D7500B876E8 /* NIMNotificationType.html in Resources */,
+				BCB7117C1C9D3D7500B876E8 /* NIMRemoveRemoteSessionBlock.html in Resources */,
+				BCB711DB1C9D3D7500B876E8 /* NIMUserGender.html in Resources */,
+				BCB711D51C9D3D7500B876E8 /* NIMTeamApplyStatus.html in Resources */,
+				BCB711CA1C9D3D7500B876E8 /* NIMNetCallNetStatus.html in Resources */,
+				BCB711961C9D3D7500B876E8 /* NIMCreateTeamOption.html in Resources */,
+				BCB711941C9D3D7500B876E8 /* NIMChatroomNotificationContent.html in Resources */,
+				BCB711871C9D3D7500B876E8 /* NIMUploadCompleteBlock.html in Resources */,
+				BCB711C41C9D3D7500B876E8 /* NIMMessageAttachmentDownloadState.html in Resources */,
+				BCB711FD1C9D3D7500B876E8 /* NIMNetCallManagerDelegate.html in Resources */,
+				BCB7119C1C9D3D7500B876E8 /* NIMImageObject.html in Resources */,
+				BCB7119B1C9D3D7500B876E8 /* NIMHistoryMessageSearchOption.html in Resources */,
+				BCB711881C9D3D7500B876E8 /* NIMUserBlock.html in Resources */,
+				BCB711781C9D3D7500B876E8 /* NIMHttpProgressBlock.html in Resources */,
+				BCB711F61C9D3D7500B876E8 /* NIMCustomAttachmentCoding.html in Resources */,
+				BCB711A21C9D3D7500B876E8 /* NIMMessageSearchOption.html in Resources */,
+				BCB712001C9D3D7500B876E8 /* NIMRTSManagerDelegate.html in Resources */,
+				BCB711851C9D3D7500B876E8 /* NIMTeamMemberHandler.html in Resources */,
+				BCB711811C9D3D7500B876E8 /* NIMTeamApplyHandler.html in Resources */,
+				BCB711A81C9D3D7500B876E8 /* NIMPushNotificationSetting.html in Resources */,
+				BCB711F91C9D3D7500B876E8 /* NIMMediaManager.html in Resources */,
+				BCB7117A1C9D3D7500B876E8 /* NIMNetCallResponseHandler.html in Resources */,
+				BCB711A01C9D3D7500B876E8 /* NIMMessage.html in Resources */,
+				BCB7119D1C9D3D7500B876E8 /* NIMImageOption.html in Resources */,
+				BCB711BD1C9D3D7500B876E8 /* NIMChatroomFetchMemberType.html in Resources */,
+				BCB711831C9D3D7500B876E8 /* NIMTeamFetchInfoHandler.html in Resources */,
+				BCB711AB1C9D3D7500B876E8 /* NIMRTSRecordingInfo.html in Resources */,
+				BCB711AA1C9D3D7500B876E8 /* NIMRTSOption.html in Resources */,
+				BCB711EB1C9D3D7500B876E8 /* library_background.png in Resources */,
+				BCB711F31C9D3D7500B876E8 /* NIMConversationManager.html in Resources */,
+				BCB711B21C9D3D7500B876E8 /* NIMTeamMember.html in Resources */,
+				BCB7116C1C9D3D7500B876E8 /* com.netease.nimsdk.NIMSDK.docset in Resources */,
+				BCB7118A1C9D3D7500B876E8 /* NIMAudioObject.html in Resources */,
+				BCB7119E1C9D3D7500B876E8 /* NIMLocationObject.html in Resources */,
+				BCB711E51C9D3D7500B876E8 /* style.scss in Resources */,
+				BCB7117B1C9D3D7500B876E8 /* NIMNetCallStartHandler.html in Resources */,
+				BCB711B51C9D3D7500B876E8 /* NIMUser.html in Resources */,
+				BCB711F71C9D3D7500B876E8 /* NIMLoginManager.html in Resources */,
+				BCB711AE1C9D3D7500B876E8 /* NIMSession.html in Resources */,
+				BCB712041C9D3D7500B876E8 /* NIMTeamManagerDelegate.html in Resources */,
+				BCB711BF1C9D3D7500B876E8 /* NIMChatroomMemberType.html in Resources */,
+				BCB711C51C9D3D7500B876E8 /* NIMMessageDeliveryState.html in Resources */,
+				BCB7118F1C9D3D7500B876E8 /* NIMChatroomMember.html in Resources */,
+				BCB711921C9D3D7500B876E8 /* NIMChatroomMembersByIdsRequest.html in Resources */,
+				BCB7117F1C9D3D7500B876E8 /* NIMSearchMessageBlock.html in Resources */,
+				BCB711E61C9D3D7500B876E8 /* style.css in Resources */,
+				BCB711FA1C9D3D7500B876E8 /* NIMMediaManagerDelgate.html in Resources */,
+				BCB711991C9D3D7500B876E8 /* NIMCustomSystemNotificationSetting.html in Resources */,
 				BCB710631C9D37C000B876E8 /* LaunchScreen.storyboard in Resources */,
-				BCB7106D1C9D38B200B876E8 /* doc in Resources */,
+				BCB712031C9D3D7500B876E8 /* NIMTeamManager.html in Resources */,
+				BCB711891C9D3D7500B876E8 /* NIMUserInfoBlock.html in Resources */,
+				BCB711E21C9D3D7500B876E8 /* _print.scss in Resources */,
+				BCB711731C9D3D7500B876E8 /* NIMChatroomMemberHandler.html in Resources */,
+				BCB7116E1C9D3D7500B876E8 /* NIMAudioToTextBlock.html in Resources */,
+				BCB711D01C9D3D7500B876E8 /* NIMRemoteErrorCode.html in Resources */,
+				BCB711F41C9D3D7500B876E8 /* NIMConversationManagerDelegate.html in Resources */,
+				BCB711F81C9D3D7500B876E8 /* NIMLoginManagerDelegate.html in Resources */,
+				BCB711BC1C9D3D7500B876E8 /* NIMChatroomEventType.html in Resources */,
+				BCB711D81C9D3D7500B876E8 /* NIMTeamOperationType.html in Resources */,
+				BCB711C31C9D3D7500B876E8 /* NIMLoginStep.html in Resources */,
+				BCB7117D1C9D3D7500B876E8 /* NIMRTSRequestHandler.html in Resources */,
+				BCB711761C9D3D7500B876E8 /* NIMFetchChatroomHistoryBlock.html in Resources */,
+				BCB711C21C9D3D7500B876E8 /* NIMLoginClientType.html in Resources */,
+				BCB711D21C9D3D7500B876E8 /* NIMRTSStatus.html in Resources */,
+				BCB711B91C9D3D7500B876E8 /* NIMVideoObject.html in Resources */,
+				BCB712061C9D3D7500B876E8 /* NIMUserManagerDelegate.html in Resources */,
+				BCB711AF1C9D3D7500B876E8 /* NIMSystemNotification.html in Resources */,
+				BCB711711C9D3D7500B876E8 /* NIMChatroomHandler.html in Resources */,
+				BCB711F01C9D3D7500B876E8 /* NIMChatManagerDelegate.html in Resources */,
+				BCB711B61C9D3D7500B876E8 /* NIMUserAddAttachment.html in Resources */,
+				BCB7119A1C9D3D7500B876E8 /* NIMFileObject.html in Resources */,
+				BCB711DC1C9D3D7500B876E8 /* NIMUserInfoUpdateTag.html in Resources */,
+				BCB711D41C9D3D7500B876E8 /* NIMSystemNotificationType.html in Resources */,
+				BCB711E81C9D3D7500B876E8 /* button_bar_background.png in Resources */,
+				BCB7116F1C9D3D7500B876E8 /* NIMBadgeHandler.html in Resources */,
+				BCB711E71C9D3D7500B876E8 /* hierarchy.html in Resources */,
+				BCB711951C9D3D7500B876E8 /* NIMChatroomNotificationMember.html in Resources */,
+				BCB711BE1C9D3D7500B876E8 /* NIMChatroomKickReason.html in Resources */,
+				BCB711BB1C9D3D7500B876E8 /* NIMChatroomConnectionState.html in Resources */,
+				BCB711701C9D3D7500B876E8 /* NIMChatroomEnterHandler.html in Resources */,
+				BCB712011C9D3D7500B876E8 /* NIMSystemNotificationManager.html in Resources */,
+				BCB711A61C9D3D7500B876E8 /* NIMNotificationContent.html in Resources */,
+				BCB711801C9D3D7500B876E8 /* NIMSystemNotificationHandler.html in Resources */,
+				BCB711791C9D3D7500B876E8 /* NIMLoginHandler.html in Resources */,
+				BCB711C01C9D3D7500B876E8 /* NIMKickReason.html in Resources */,
+				BCB711B01C9D3D7500B876E8 /* NIMSystemNotificationFilter.html in Resources */,
+				BCB711B41C9D3D7500B876E8 /* NIMUpdateTeamInfoAttachment.html in Resources */,
+				BCB711F11C9D3D7500B876E8 /* NIMChatroomManager.html in Resources */,
+				BCB711981C9D3D7500B876E8 /* NIMCustomSystemNotification.html in Resources */,
+				BCB711C61C9D3D7500B876E8 /* NIMMessageType.html in Resources */,
+				BCB711F51C9D3D7500B876E8 /* NIMCustomAttachment.html in Resources */,
+				BCB711A71C9D3D7500B876E8 /* NIMNotificationObject.html in Resources */,
+				BCB711901C9D3D7500B876E8 /* NIMChatroomMemberKickRequest.html in Resources */,
+				BCB711EE1C9D3D7500B876E8 /* script.js in Resources */,
+				BCB711FF1C9D3D7500B876E8 /* NIMRTSManager.html in Resources */,
+				BCB711C91C9D3D7500B876E8 /* NIMNetCallEventType.html in Resources */,
+				BCB711CD1C9D3D7500B876E8 /* NIMNetCallVideoQuality.html in Resources */,
+				BCB711E01C9D3D7500B876E8 /* _normalize.scss in Resources */,
+				BCB711EC1C9D3D7500B876E8 /* title_background.png in Resources */,
+				BCB7118E1C9D3D7500B876E8 /* NIMChatroomEnterRequest.html in Resources */,
+				BCB711B11C9D3D7500B876E8 /* NIMTeam.html in Resources */,
+				BCB711EF1C9D3D7500B876E8 /* NIMChatManager.html in Resources */,
+				BCB711E91C9D3D7500B876E8 /* disclosure.png in Resources */,
+				BCB711741C9D3D7500B876E8 /* NIMChatroomMembersHandler.html in Resources */,
+				BCB711D61C9D3D7500B876E8 /* NIMTeamJoinMode.html in Resources */,
+				BCB712021C9D3D7500B876E8 /* NIMSystemNotificationManagerDelegate.html in Resources */,
+				BCB711E41C9D3D7500B876E8 /* _xcode.scss in Resources */,
+				BCB711B31C9D3D7500B876E8 /* NIMTeamNotificationContent.html in Resources */,
+				BCB711C71C9D3D7500B876E8 /* NIMNetCallCamera.html in Resources */,
+				BCB711AD1C9D3D7500B876E8 /* NIMSDKConfig.html in Resources */,
+				BCB711A31C9D3D7500B876E8 /* NIMMessageSetting.html in Resources */,
+				BCB711A51C9D3D7500B876E8 /* NIMNetCallOption.html in Resources */,
+				BCB711E31C9D3D7500B876E8 /* _variables.scss in Resources */,
+				BCB7118B1C9D3D7500B876E8 /* NIMAudioToTextOption.html in Resources */,
+				BCB711D31C9D3D7500B876E8 /* NIMSessionType.html in Resources */,
+				BCB711DF1C9D3D7500B876E8 /* _layout.scss in Resources */,
+				BCB711C81C9D3D7500B876E8 /* NIMNetCallControlType.html in Resources */,
+				BCB711AC1C9D3D7500B876E8 /* NIMSDK.html in Resources */,
+				BCB711D71C9D3D7500B876E8 /* NIMTeamMemberType.html in Resources */,
+				BCB711D91C9D3D7500B876E8 /* NIMTeamType.html in Resources */,
+				BCB711861C9D3D7500B876E8 /* NIMUpdateMessageBlock.html in Resources */,
+				BCB711FB1C9D3D7500B876E8 /* NIMMessageObject.html in Resources */,
+				BCB711BA1C9D3D7500B876E8 /* NIMAudioOutputDevice.html in Resources */,
+				BCB711FC1C9D3D7500B876E8 /* NIMNetCallManager.html in Resources */,
 				BCB710601C9D37C000B876E8 /* Assets.xcassets in Resources */,
 				BCB7105E1C9D37C000B876E8 /* Main.storyboard in Resources */,
+				BCB711FE1C9D3D7500B876E8 /* NIMResourceManager.html in Resources */,
+				BCB711DA1C9D3D7500B876E8 /* NIMTeamUpdateTag.html in Resources */,
+				BCB711CC1C9D3D7500B876E8 /* NIMNetCallType.html in Resources */,
+				BCB712051C9D3D7500B876E8 /* NIMUserManager.html in Resources */,
+				BCB711EA1C9D3D7500B876E8 /* disclosure_open.png in Resources */,
+				BCB711A91C9D3D7500B876E8 /* NIMRecentSession.html in Resources */,
+				BCB7118D1C9D3D7500B876E8 /* NIMChatroom.html in Resources */,
+				BCB7117E1C9D3D7500B876E8 /* NIMRTSResponseHandler.html in Resources */,
+				BCB711DD1C9D3D7500B876E8 /* NIMUserOperation.html in Resources */,
+				BCB711C11C9D3D7500B876E8 /* NIMLocalErrorCode.html in Resources */,
+				BCB711ED1C9D3D7500B876E8 /* index.html in Resources */,
+				BCB711F21C9D3D7500B876E8 /* NIMChatroomManagerDelegate.html in Resources */,
+				BCB711E11C9D3D7500B876E8 /* _object.scss in Resources */,
+				BCB711A11C9D3D7500B876E8 /* NIMMessageChatroomExtension.html in Resources */,
+				BCB711B81C9D3D7500B876E8 /* NIMUserRequest.html in Resources */,
+				BCB711B71C9D3D7500B876E8 /* NIMUserInfo.html in Resources */,
+				BCB711971C9D3D7500B876E8 /* NIMCustomObject.html in Resources */,
+				BCB711CB1C9D3D7500B876E8 /* NIMNetCallStatus.html in Resources */,
+				BCB7116D1C9D3D7500B876E8 /* NIMApnsHandler.html in Resources */,
+				BCB711CF1C9D3D7500B876E8 /* NIMPushNotificationDisplayType.html in Resources */,
+				BCB711841C9D3D7500B876E8 /* NIMTeamHandler.html in Resources */,
+				BCB711751C9D3D7500B876E8 /* NIMDownloadCompleteBlock.html in Resources */,
+				BCB7118C1C9D3D7500B876E8 /* NIMAutoLoginData.html in Resources */,
+				BCB711911C9D3D7500B876E8 /* NIMChatroomMemberRequest.html in Resources */,
+				BCB711DE1C9D3D7500B876E8 /* _index.scss in Resources */,
+				BCB711A41C9D3D7500B876E8 /* NIMNetCallNotificationContent.html in Resources */,
+				BCB711721C9D3D7500B876E8 /* NIMChatroomInfoHandler.html in Resources */,
+				BCB711771C9D3D7500B876E8 /* NIMFetchMessageHistoryBlock.html in Resources */,
+				BCB7119F1C9D3D7500B876E8 /* NIMLoginClient.html in Resources */,
+				BCB711D11C9D3D7500B876E8 /* NIMRTSService.html in Resources */,
+				BCB711931C9D3D7500B876E8 /* NIMChatroomMemberUpdateRequest.html in Resources */,
+				BCB711821C9D3D7500B876E8 /* NIMTeamCreateHandler.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

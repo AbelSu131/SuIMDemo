@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NIMSDK.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //[[NIMSDK sharedSDK] registerWithAppID:您的APPKEY cerName:您的推送证书名];
     return YES;
 }
 

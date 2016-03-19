@@ -65,7 +65,9 @@
 }
 
 - (void)logout:(id)sender{
-    [[[NIMSDK sharedSDK] loginManager] logout:^(NSError *error){}];
+    [[[NIMSDK sharedSDK] loginManager] logout:^(NSError *error){
+        [self uiAfterLogout:error];
+    }];
 }
 
 // 对登录结果进行UI变化
@@ -79,8 +81,24 @@
         [self.loginBtn setTitle:@"登  出" forState:UIControlStateNormal];
         [self.loginBtn removeTarget:self action:NULL forControlEvents:UIControlEventTouchUpInside];
         [self.loginBtn addTarget:self action:@selector(logout:) forControlEvents:UIControlEventTouchUpInside];
-        //UIAlertView
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:nil message:@"登录成功" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+        [alert show];
+    }else{
+        UIAlertView *alert = [[UIAlertView alloc]initWithTitle:nil message:@"登录失败" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+        [alert show];
     }
+}
+
+//对登出结果进行UI变化
+- (void)uiAfterLogout:(NSError *)error{
+    self.pwdTitleLabel.hidden = NO;
+    self.actTitleLabel.hidden = NO;
+    self.accountTextField.hidden = NO;
+    self.pwdTextField.hidden = NO;
+    self.accountLabel.hidden =YES;
+    [self.loginBtn setTitle:@"登  录" forState:UIControlStateNormal];
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:nil message:@"登出成功" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+    [alert show];
 }
 
 

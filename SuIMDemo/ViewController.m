@@ -37,8 +37,58 @@
     self.actTitleLabel.text = @"账  号";
     [self.view addSubview:self.actTitleLabel];
     
+    self.accountTextField = [[UITextField alloc]initWithFrame:CGRectMake(100, 150, 200, 30)];
+    self.accountTextField.backgroundColor = [UIColor colorWithWhite:0.2 alpha:0.1];
+    [self.view addSubview:self.accountTextField];
+    
+    self.accountLabel = [[UILabel alloc]initWithFrame:CGRectMake(142, 80, 200, 30)];
+    [self.view addSubview:self.accountLabel];
+    
+    self.pwdTitleLabel = [[UILabel alloc]initWithFrame:CGRectMake(50, 210, 60, 30)];
+    self.pwdTitleLabel.text = @"密  码";
+    [self.view addSubview:self.pwdTitleLabel];
+    
+    
+    self.pwdTextField = [[UITextField alloc]initWithFrame:CGRectMake(100, 210, 200, 30)];
+    self.pwdTextField.backgroundColor = [UIColor colorWithWhite:0.2 alpha:0.1];
+    [self.view addSubview:self.pwdTextField];
+    
     
 }
+
+- (void)login:(id)sender{
+    [[[NIMSDK sharedSDK] loginManager] login:self.accountTextField.text
+                                       token:self.pwdTextField.text
+                                  completion:^(NSError *error) {
+                                      [self uiAfterLogin:error];
+                                  }];
+}
+
+- (void)logout:(id)sender{
+    [[[NIMSDK sharedSDK] loginManager] logout:^(NSError *error){}];
+}
+
+// 对登录结果进行UI变化
+- (void)uiAfterLogin:(NSError *)error{
+    if (!error) {
+        self.pwdTitleLabel.hidden = YES;
+        self.actTitleLabel.hidden = YES;
+        self.accountTextField.hidden = YES;
+        self.pwdTextField.hidden = YES;
+        self.accountLabel.text = [@"账号名 :" stringByAppendingString:self.accountTextField.text];
+        [self.loginBtn setTitle:@"登  出" forState:UIControlStateNormal];
+        [self.loginBtn removeTarget:self action:NULL forControlEvents:UIControlEventTouchUpInside];
+        [self.loginBtn addTarget:self action:@selector(logout:) forControlEvents:UIControlEventTouchUpInside];
+        //UIAlertView
+    }
+}
+
+
+
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

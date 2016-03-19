@@ -16,6 +16,15 @@
 		BCB7106D1C9D38B200B876E8 /* doc in Resources */ = {isa = PBXBuildFile; fileRef = BCB7106A1C9D38B200B876E8 /* doc */; };
 		BCB7106E1C9D38B200B876E8 /* ExportHeaders in Resources */ = {isa = PBXBuildFile; fileRef = BCB7106B1C9D38B200B876E8 /* ExportHeaders */; };
 		BCB7106F1C9D38B200B876E8 /* libNIMSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB7106C1C9D38B200B876E8 /* libNIMSDK.a */; };
+		BCB710711C9D390100B876E8 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB710701C9D390100B876E8 /* MobileCoreServices.framework */; };
+		BCB710731C9D390B00B876E8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB710721C9D390B00B876E8 /* SystemConfiguration.framework */; };
+		BCB710751C9D391900B876E8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB710741C9D391900B876E8 /* AVFoundation.framework */; };
+		BCB710771C9D392300B876E8 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB710761C9D392300B876E8 /* CoreTelephony.framework */; };
+		BCB710791C9D394100B876E8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB710781C9D394100B876E8 /* CoreMedia.framework */; };
+		BCB7107B1C9D394900B876E8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB7107A1C9D394900B876E8 /* AudioToolbox.framework */; };
+		BCB7107D1C9D397700B876E8 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB7107C1C9D397700B876E8 /* libstdc++.6.0.9.tbd */; };
+		BCB7107F1C9D398500B876E8 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB7107E1C9D398500B876E8 /* libsqlite3.0.tbd */; };
+		BCB710811C9D398E00B876E8 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB710801C9D398E00B876E8 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +41,15 @@
 		BCB7106A1C9D38B200B876E8 /* doc */ = {isa = PBXFileReference; lastKnownFileType = folder; path = doc; sourceTree = "<group>"; };
 		BCB7106B1C9D38B200B876E8 /* ExportHeaders */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ExportHeaders; sourceTree = "<group>"; };
 		BCB7106C1C9D38B200B876E8 /* libNIMSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNIMSDK.a; sourceTree = "<group>"; };
+		BCB710701C9D390100B876E8 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BCB710721C9D390B00B876E8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BCB710741C9D391900B876E8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BCB710761C9D392300B876E8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		BCB710781C9D394100B876E8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		BCB7107A1C9D394900B876E8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BCB7107C1C9D397700B876E8 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		BCB7107E1C9D398500B876E8 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		BCB710801C9D398E00B876E8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +57,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCB710811C9D398E00B876E8 /* libz.tbd in Frameworks */,
+				BCB7107F1C9D398500B876E8 /* libsqlite3.0.tbd in Frameworks */,
+				BCB7107D1C9D397700B876E8 /* libstdc++.6.0.9.tbd in Frameworks */,
+				BCB7107B1C9D394900B876E8 /* AudioToolbox.framework in Frameworks */,
+				BCB710791C9D394100B876E8 /* CoreMedia.framework in Frameworks */,
+				BCB710771C9D392300B876E8 /* CoreTelephony.framework in Frameworks */,
+				BCB710751C9D391900B876E8 /* AVFoundation.framework in Frameworks */,
+				BCB710731C9D390B00B876E8 /* SystemConfiguration.framework in Frameworks */,
+				BCB710711C9D390100B876E8 /* MobileCoreServices.framework in Frameworks */,
 				BCB7106F1C9D38B200B876E8 /* libNIMSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,6 +76,15 @@
 		BCB710471C9D37C000B876E8 = {
 			isa = PBXGroup;
 			children = (
+				BCB710801C9D398E00B876E8 /* libz.tbd */,
+				BCB7107E1C9D398500B876E8 /* libsqlite3.0.tbd */,
+				BCB7107C1C9D397700B876E8 /* libstdc++.6.0.9.tbd */,
+				BCB7107A1C9D394900B876E8 /* AudioToolbox.framework */,
+				BCB710781C9D394100B876E8 /* CoreMedia.framework */,
+				BCB710761C9D392300B876E8 /* CoreTelephony.framework */,
+				BCB710741C9D391900B876E8 /* AVFoundation.framework */,
+				BCB710721C9D390B00B876E8 /* SystemConfiguration.framework */,
+				BCB710701C9D390100B876E8 /* MobileCoreServices.framework */,
 				BCB710521C9D37C000B876E8 /* SuIMDemo */,
 				BCB710511C9D37C000B876E8 /* Products */,
 			);
@@ -274,12 +310,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				INFOPLIST_FILE = SuIMDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SuIMDemo",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.subin.SuIMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -289,12 +327,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				INFOPLIST_FILE = SuIMDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SuIMDemo",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.subin.SuIMDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

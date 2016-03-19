@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NIMNetCallOption.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NIMNetCallOption</TokenIdentifier>
+			<Abstract type="html">网络通话选项</Abstract>
+			<DeclaredIn>NIMNetCallOption.h</DeclaredIn>
+            
+			
+			<NodeRef refid="28"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NIMNetCallOption/setMessage:</TokenIdentifier>
+			<Abstract type="html">附带消息, 仅在发起网络通话时有效, 用于推送显示等</Abstract>
+			<DeclaredIn>NIMNetCallOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NIMNetCallOption/message</TokenIdentifier>
+			<Abstract type="html">附带消息, 仅在发起网络通话时有效, 用于推送显示等</Abstract>
+			<DeclaredIn>NIMNetCallOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NIMNetCallOption/message</TokenIdentifier>
+			<Abstract type="html">附带消息, 仅在发起网络通话时有效, 用于推送显示等</Abstract>
+			<DeclaredIn>NIMNetCallOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NIMNetCallOption/setExtendMessage:</TokenIdentifier>
+			<Abstract type="html">扩展消息, 仅在发起网络通话时有效, 用于开发者自己沟通额外信息, 被叫收到呼叫时会携带该信息</Abstract>
+			<DeclaredIn>NIMNetCallOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *extendMessage</Declaration>
+			
+			
+			<Anchor>//api/name/extendMessage</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NIMNetCallOption/extendMessage</TokenIdentifier>
+			<Abstract type="html">扩展消息, 仅在发起网络通话时有效, 用于开发者自己沟通额外信息, 被叫收到呼叫时会携带该信息</Abstract>
+			<DeclaredIn>NIMNetCallOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *extendMessage</Declaration>
+			
+			
+			<Anchor>//api/name/extendMessage</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NIMNetCallOption/extendMessage</TokenIdentifier>
+			<Abstract type="html">扩展消息, 仅在发起网络通话时有效, 用于开发者自己沟通额外信息, 被叫收到呼叫时会携带该信息</Abstract>
+			<DeclaredIn>NIMNetCallOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *extendMessage</Declaration>
+			
+			
+			<Anchor>//api/name/extendMessage</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NIMNetCallOption/setPreferredVideoQuality:</TokenIdentifier>
+			<Abstract type="html">期望的发送视频质量. SDK可能会根据具体机型运算性能和协商结果调整为更合适的清晰度, 导致该设置无效(该情况通常发生在通话一方有低性能机器时)</Abstract>
+			<DeclaredIn>NIMNetCallOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NIMNetCallVideoQuality preferredVideoQuality</Declaration>
+			
+			
+			<Anchor>//api/name/preferredVideoQuality</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NIMNetCallOption/preferredVideoQuality</TokenIdentifier>
+			<Abstract type="html">期望的发送视频质量. SDK可能会根据具体机型运算性能和协商结果调整为更合适的清晰度, 导致该设置无效(该情况通常发生在通话一方有低性能机器时)</Abstract>
+			<DeclaredIn>NIMNetCallOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NIMNetCallVideoQuality preferredVideoQuality</Declaration>
+			
+			
+			<Anchor>//api/name/preferredVideoQuality</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NIMNetCallOption/preferredVideoQuality</TokenIdentifier>
+			<Abstract type="html">期望的发送视频质量. SDK可能会根据具体机型运算性能和协商结果调整为更合适的清晰度, 导致该设置无效(该情况通常发生在通话一方有低性能机器时)</Abstract>
+			<DeclaredIn>NIMNetCallOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NIMNetCallVideoQuality preferredVideoQuality</Declaration>
+			
+			
+			<Anchor>//api/name/preferredVideoQuality</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NIMNetCallOption/setDisableVideoCropping:</TokenIdentifier>
+			<Abstract type="html">禁用视频裁剪. 不禁用时, SDK可能会根据对端机型屏幕宽高比将本端画面裁剪后再发送, 以节省运算量和网络带宽</Abstract>
+			<DeclaredIn>NIMNetCallOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL disableVideoCropping</Declaration>
+			
+			
+			<Anchor>//api/name/disableVideoCropping</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NIMNetCallOption/disableVideoCropping</TokenIdentifier>
+			<Abstract type="html">禁用视频裁剪. 不禁用时, SDK可能会根据对端机型屏幕宽高比将本端画面裁剪后再发送, 以节省运算量和网络带宽</Abstract>
+			<DeclaredIn>NIMNetCallOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL disableVideoCropping</Declaration>
+			
+			
+			<Anchor>//api/name/disableVideoCropping</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NIMNetCallOption/disableVideoCropping</TokenIdentifier>
+			<Abstract type="html">禁用视频裁剪. 不禁用时, SDK可能会根据对端机型屏幕宽高比将本端画面裁剪后再发送, 以节省运算量和网络带宽</Abstract>
+			<DeclaredIn>NIMNetCallOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL disableVideoCropping</Declaration>
+			
+			
+			<Anchor>//api/name/disableVideoCropping</Anchor>
+            <NodeRef refid="28"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

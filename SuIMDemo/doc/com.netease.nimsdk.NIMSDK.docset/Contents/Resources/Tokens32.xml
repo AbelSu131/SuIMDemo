@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/NIMRTSOption.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/NIMRTSOption</TokenIdentifier>
+			<Abstract type="html">实时会话的附带选项, 用于发起和响应</Abstract>
+			<DeclaredIn>NIMRTSOption.h</DeclaredIn>
+            
+			
+			<NodeRef refid="32"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NIMRTSOption/setMessage:</TokenIdentifier>
+			<Abstract type="html">附带消息, 仅在发起会话时有效, 用于推送显示等</Abstract>
+			<DeclaredIn>NIMRTSOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NIMRTSOption/message</TokenIdentifier>
+			<Abstract type="html">附带消息, 仅在发起会话时有效, 用于推送显示等</Abstract>
+			<DeclaredIn>NIMRTSOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NIMRTSOption/message</TokenIdentifier>
+			<Abstract type="html">附带消息, 仅在发起会话时有效, 用于推送显示等</Abstract>
+			<DeclaredIn>NIMRTSOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *message</Declaration>
+			
+			
+			<Anchor>//api/name/message</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NIMRTSOption/setExtendMessage:</TokenIdentifier>
+			<Abstract type="html">扩展消息, 仅在发起会话时有效, 用于开发者自己沟通额外信息</Abstract>
+			<DeclaredIn>NIMRTSOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *extendMessage</Declaration>
+			
+			
+			<Anchor>//api/name/extendMessage</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NIMRTSOption/extendMessage</TokenIdentifier>
+			<Abstract type="html">扩展消息, 仅在发起会话时有效, 用于开发者自己沟通额外信息</Abstract>
+			<DeclaredIn>NIMRTSOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *extendMessage</Declaration>
+			
+			
+			<Anchor>//api/name/extendMessage</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NIMRTSOption/extendMessage</TokenIdentifier>
+			<Abstract type="html">扩展消息, 仅在发起会话时有效, 用于开发者自己沟通额外信息</Abstract>
+			<DeclaredIn>NIMRTSOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, copy) NSString *extendMessage</Declaration>
+			
+			
+			<Anchor>//api/name/extendMessage</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NIMRTSOption/setDisableRecord:</TokenIdentifier>
+			<Abstract type="html">禁用服务器录制</Abstract>
+			<DeclaredIn>NIMRTSOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL disableRecord</Declaration>
+			
+			
+			<Anchor>//api/name/disableRecord</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/NIMRTSOption/disableRecord</TokenIdentifier>
+			<Abstract type="html">禁用服务器录制</Abstract>
+			<DeclaredIn>NIMRTSOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL disableRecord</Declaration>
+			
+			
+			<Anchor>//api/name/disableRecord</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/NIMRTSOption/disableRecord</TokenIdentifier>
+			<Abstract type="html">禁用服务器录制</Abstract>
+			<DeclaredIn>NIMRTSOption.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL disableRecord</Declaration>
+			
+			
+			<Anchor>//api/name/disableRecord</Anchor>
+            <NodeRef refid="32"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
